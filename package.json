@@ -10,7 +10,8 @@
     "check:leaks": "node scripts/check-leaks.mjs",
     "start": "npx serve out",
     "cv": "\"/Applications/Brave Browser.app/Contents/MacOS/Brave Browser\" --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf=public/Sachin_Rana_CV.pdf scripts/cv/cv.html",
-    "check:repo": "node scripts/check-leaks.mjs --repo"
+    "check:repo": "node scripts/check-leaks.mjs --repo",
+    "deploy:pages": "node scripts/deploy-pages.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

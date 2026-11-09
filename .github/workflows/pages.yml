@@ -1,8 +1,9 @@
 name: Deploy to GitHub Pages
 
+# Manual only while GitHub Actions is billing-locked on the account; the site is
+# published with `npm run deploy:pages` meanwhile. Restore the push trigger (and set
+# the Pages source to GitHub Actions) once Actions works again.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
