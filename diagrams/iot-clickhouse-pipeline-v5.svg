@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 780" width="1350" height="780" style="background-color: #090D16; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+<style>
+path[stroke-dasharray]{animation:ia-flow 1.4s linear infinite}
+@keyframes ia-flow{to{stroke-dashoffset:-20}}
+.ia-pkt{filter:drop-shadow(0 0 4px currentColor)}
+@media (prefers-reduced-motion: reduce){path[stroke-dasharray]{animation:none}.ia-pkt{display:none}}
+</style>
+  <defs>
+    <pattern id="grid2" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.6" />
+    </pattern>
+    <radialGradient id="pipelineGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#06B6D4" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <marker id="pipeArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#10B981" />
+    </marker>
+    <marker id="cyanArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#06B6D4" />
+    </marker>
+    <marker id="violetArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#8B5CF6" />
+    </marker>
+  </defs>
+
+  <rect width="1350" height="780" fill="#090D16" />
+  <rect width="1350" height="780" fill="url(#grid2)" />
+  <circle cx="675" cy="390" r="480" fill="url(#pipelineGlow)" />
+
+  <!-- Diagram Header -->
+  <g transform="translate(50, 36)">
+    <rect x="0" y="0" width="1250" height="58" rx="10" fill="#0F172A" fill-opacity="0.8" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="24" cy="29" r="6" fill="#10B981" filter="url(#glowGreen)" />
+    <text x="42" y="26" fill="#F8FAFC" font-size="16" font-weight="700" letter-spacing="0.5">INDUSTRIAL IOT TO CLICKHOUSE STREAM PIPELINE</text>
+    <text x="42" y="45" fill="#94A3B8" font-size="11" font-family="monospace">SENSORS // LORAWAN // EMQX BROKER // NODE-RED // CLICKHOUSE HA // DIGITAL TWIN</text>
+    <g transform="translate(1090, 18)">
+      <rect x="0" y="0" width="140" height="22" rx="11" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1" />
+      <circle cx="14" cy="11" r="3.5" fill="#10B981" />
+      <text x="26" y="15" fill="#10B981" font-size="9.5" font-family="monospace" font-weight="bold">&lt; 5MS LATENCY</text>
+    </g>
+  </g>
+
+  <!-- Connectors (Connecting Stages) -->
+  <g stroke-width="2.5" fill="none">
+    <!-- Stage 1 -> Stage 2 -->
+    <path d="M 235 340 L 285 340" stroke="#10B981" stroke-dasharray="6 4" marker-end="url(#pipeArrow)" />
+<circle class="ia-pkt" r="5" fill="#10B981" color="#10B981" opacity="0.95"><animateMotion dur="2.6s" begin="0.00s" repeatCount="indefinite" path="M 235 340 L 285 340"/></circle>
+    <!-- Stage 2 -> Stage 3 -->
+    <path d="M 495 340 L 545 340" stroke="#06B6D4" stroke-dasharray="6 4" marker-end="url(#cyanArrow)" />
+<circle class="ia-pkt" r="5" fill="#06B6D4" color="#06B6D4" opacity="0.95"><animateMotion dur="2.6s" begin="0.45s" repeatCount="indefinite" path="M 495 340 L 545 340"/></circle>
+    <!-- Stage 3 -> Stage 4 -->
+    <path d="M 755 340 L 805 340" stroke="#38BDF8" stroke-dasharray="6 4" marker-end="url(#cyanArrow)" />
+<circle class="ia-pkt" r="5" fill="#38BDF8" color="#38BDF8" opacity="0.95"><animateMotion dur="2.6s" begin="0.90s" repeatCount="indefinite" path="M 755 340 L 805 340"/></circle>
+    <!-- Stage 4 -> Stage 5 -->
+    <path d="M 1015 340 L 1065 340" stroke="#8B5CF6" stroke-dasharray="6 4" marker-end="url(#violetArrow)" />
+<circle class="ia-pkt" r="5" fill="#8B5CF6" color="#8B5CF6" opacity="0.95"><animateMotion dur="2.6s" begin="1.35s" repeatCount="indefinite" path="M 1015 340 L 1065 340"/></circle>
+  </g>
+
+  <!-- ==================== STAGE 1: SENSORS & METERS ==================== -->
+  <g transform="translate(50, 130)">
+    <rect x="0" y="0" width="185" height="440" rx="14" fill="#0D1526" stroke="#10B981" stroke-width="1.5" />
+    <rect x="0" y="0" width="185" height="36" rx="14" fill="#10B981" fill-opacity="0.15" />
+    <text x="14" y="23" fill="#34D399" font-size="11" font-weight="700">01. FIELD SENSING</text>
+    <circle cx="165" cy="18" r="3.5" fill="#10B981" />
+
+    <!-- Sensor Block A: Smart Energy Meters -->
+    <g transform="translate(12, 50)">
+      <rect x="0" y="0" width="161" height="105" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="10" y="18" fill="#F8FAFC" font-size="11" font-weight="600">3-Phase Energy</text>
+      <text x="10" y="32" fill="#64748B" font-family="monospace" font-size="8.5">Industrial Feeder (MTR-8918)</text>
+      <text x="10" y="46" fill="#64748B" font-family="monospace" font-size="8.5">Substation Node (MTR-0870)</text>
+      <text x="10" y="60" fill="#64748B" font-family="monospace" font-size="8.5">Commercial Complex (MTR-0872)</text>
+      <line x1="10" y1="70" x2="150" y2="70" stroke="#1E293B" stroke-width="1" />
+      <text x="10" y="84" fill="#10B981" font-family="monospace" font-size="9">V, A, kW, PF, THD</text>
+      <text x="10" y="97" fill="#64748B" font-family="monospace" font-size="8.5">Freq: 0.2s Polling</text>
+    </g>
+
+    <!-- Sensor Block B: Environmental & ESP32 -->
+    <g transform="translate(12, 168)">
+      <rect x="0" y="0" width="161" height="85" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="10" y="18" fill="#F8FAFC" font-size="11" font-weight="600">ESP32 &amp; DHT11</text>
+      <text x="10" y="32" fill="#64748B" font-family="monospace" font-size="8.5">Living Room Sensor</text>
+      <text x="10" y="48" fill="#06B6D4" font-family="monospace" font-size="9">Temp: 24.2°C</text>
+      <text x="10" y="63" fill="#06B6D4" font-family="monospace" font-size="9">Humidity: 48.5%</text>
+      <text x="10" y="77" fill="#64748B" font-family="monospace" font-size="8.5">Wi-Fi Mesh / REST</text>
+    </g>
+
+    <!-- Sensor Block C: Modbus & LoRa -->
+    <g transform="translate(12, 266)">
+      <rect x="0" y="0" width="161" height="100" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="10" y="18" fill="#F8FAFC" font-size="11" font-weight="600">LoRaWAN Gateway</text>
+      <text x="10" y="32" fill="#64748B" font-family="monospace" font-size="8.5">SX1302 868MHz Node</text>
+      <text x="10" y="48" fill="#F59E0B" font-family="monospace" font-size="9">Modbus RS-485 RTU</text>
+      <text x="10" y="64" fill="#64748B" font-family="monospace" font-size="8.5">Industrial Transducers</text>
+      <text x="10" y="80" fill="#64748B" font-family="monospace" font-size="8.5">Chiller / Motor VFD</text>
+      <text x="10" y="94" fill="#10B981" font-family="monospace" font-size="8.5">Long-Range RF Link</text>
+    </g>
+
+    <!-- Stage 1 Footer Tag -->
+    <g transform="translate(12, 380)">
+      <rect x="0" y="0" width="161" height="44" rx="6" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1" />
+      <text x="80" y="18" text-anchor="middle" fill="#34D399" font-family="monospace" font-size="9" font-weight="bold">RAW TELEMETRY</text>
+      <text x="80" y="32" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="8.5">0.2s - 1s Interval</text>
+    </g>
+  </g>
+
+  <!-- ==================== STAGE 2: INGESTION & EDGE GATEWAY ==================== -->
+  <g transform="translate(285, 130)">
+    <rect x="0" y="0" width="210" height="440" rx="14" fill="#0D1526" stroke="#06B6D4" stroke-width="1.5" />
+    <rect x="0" y="0" width="210" height="36" rx="14" fill="#06B6D4" fill-opacity="0.15" />
+    <text x="14" y="23" fill="#38BDF8" font-size="11" font-weight="700">02. EDGE &amp; MESH</text>
+    <circle cx="190" cy="18" r="3.5" fill="#06B6D4" />
+
+    <g transform="translate(14, 50)">
+      <rect x="0" y="0" width="182" height="95" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Edge site gateway</text>
+      <text x="12" y="35" fill="#64748B" font-family="monospace" font-size="9">Proxmox Edge LXC</text>
+      <text x="12" y="50" fill="#06B6D4" font-family="monospace" font-size="9">Segment: Edge OT VLAN</text>
+      <text x="12" y="66" fill="#94A3B8" font-size="9">LoRa Packet Forwarder</text>
+      <text x="12" y="82" fill="#10B981" font-family="monospace" font-size="9">Gateway MQTT client</text>
+    </g>
+
+    <g transform="translate(14, 160)">
+      <rect x="0" y="0" width="182" height="110" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">NetBird Mesh Tunnel</text>
+      <text x="12" y="35" fill="#10B981" font-family="monospace" font-size="9">WireGuard Encrypted</text>
+      <text x="12" y="50" fill="#64748B" font-family="monospace" font-size="9">Zero-Trust P2P Overlay</text>
+      <text x="12" y="66" fill="#94A3B8" font-size="9">Cross-Site Routing</text>
+      <text x="12" y="82" fill="#64748B" font-family="monospace" font-size="9">Data lake &lt;-&gt; hypervisor</text>
+      <text x="12" y="98" fill="#38BDF8" font-family="monospace" font-size="9">Lossless NAT Traversal</text>
+    </g>
+
+    <g transform="translate(14, 285)">
+      <rect x="0" y="0" width="182" height="80" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Failover &amp; Buffer</text>
+      <text x="12" y="35" fill="#64748B" font-family="monospace" font-size="9">Local SQLite Ring Buffer</text>
+      <text x="12" y="50" fill="#F59E0B" font-family="monospace" font-size="9">Offline 24h Resilience</text>
+      <text x="12" y="66" fill="#94A3B8" font-size="9">Automatic Sync on Reconnect</text>
+    </g>
+
+    <!-- Stage 2 Footer Tag -->
+    <g transform="translate(14, 380)">
+      <rect x="0" y="0" width="182" height="44" rx="6" fill="#06B6D4" fill-opacity="0.1" stroke="#06B6D4" stroke-width="1" />
+      <text x="91" y="18" text-anchor="middle" fill="#38BDF8" font-family="monospace" font-size="9" font-weight="bold">SECURE TRANSPORT</text>
+      <text x="91" y="32" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="8.5">TLS 1.3 // Zero Trust</text>
+    </g>
+  </g>
+
+  <!-- ==================== STAGE 3: EMQX BROKER & RULE ENGINE ==================== -->
+  <g transform="translate(545, 130)">
+    <rect x="0" y="0" width="210" height="440" rx="14" fill="#0D1526" stroke="#38BDF8" stroke-width="1.5" />
+    <rect x="0" y="0" width="210" height="36" rx="14" fill="#38BDF8" fill-opacity="0.15" />
+    <text x="14" y="23" fill="#38BDF8" font-size="11" font-weight="700">03. EMQX BROKER</text>
+    <circle cx="190" cy="18" r="3.5" fill="#38BDF8" />
+
+    <g transform="translate(14, 50)">
+      <rect x="0" y="0" width="182" height="95" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">EMQX Clustered Core</text>
+      <text x="12" y="35" fill="#38BDF8" font-family="monospace" font-size="9">MQTT v5.0 Broker</text>
+      <text x="12" y="50" fill="#10B981" font-family="monospace" font-size="9">Throughput: 100k msg/s</text>
+      <text x="12" y="66" fill="#94A3B8" font-size="9">Port: 1883 / 8883 (TLS)</text>
+      <text x="12" y="82" fill="#64748B" font-family="monospace" font-size="9">WebSocket :8083</text>
+    </g>
+
+    <g transform="translate(14, 160)">
+      <rect x="0" y="0" width="182" height="110" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">MQTT Topic Hierarchy</text>
+      <text x="12" y="35" fill="#64748B" font-family="monospace" font-size="8.5">site1002/meters/+</text>
+      <text x="12" y="50" fill="#64748B" font-family="monospace" font-size="8.5">site1002/sensors/#</text>
+      <text x="12" y="66" fill="#64748B" font-family="monospace" font-size="8.5">industrial/motor/01</text>
+      <text x="12" y="82" fill="#10B981" font-family="monospace" font-size="8.5">QoS 1 (At Least Once)</text>
+      <text x="12" y="98" fill="#38BDF8" font-family="monospace" font-size="8.5">Retained State Trees</text>
+    </g>
+
+    <g transform="translate(14, 285)">
+      <rect x="0" y="0" width="182" height="80" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">EMQX SQL Rule Engine</text>
+      <text x="12" y="35" fill="#8B5CF6" font-family="monospace" font-size="9">SELECT * WHERE...</text>
+      <text x="12" y="50" fill="#94A3B8" font-size="9">Instant Anomaly Routing</text>
+      <text x="12" y="66" fill="#64748B" font-family="monospace" font-size="9">Webhooks &amp; Kafka Sink</text>
+    </g>
+
+    <!-- Stage 3 Footer Tag -->
+    <g transform="translate(14, 380)">
+      <rect x="0" y="0" width="182" height="44" rx="6" fill="#38BDF8" fill-opacity="0.1" stroke="#38BDF8" stroke-width="1" />
+      <text x="91" y="18" text-anchor="middle" fill="#38BDF8" font-family="monospace" font-size="9" font-weight="bold">MESSAGE DISPATCH</text>
+      <text x="91" y="32" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="8.5">&lt; 1ms Processing Delay</text>
+    </g>
+  </g>
+
+  <!-- ==================== STAGE 4: NODE-RED & TRANSFORMATION ==================== -->
+  <g transform="translate(805, 130)">
+    <rect x="0" y="0" width="210" height="440" rx="14" fill="#0D1526" stroke="#8B5CF6" stroke-width="1.5" />
+    <rect x="0" y="0" width="210" height="36" rx="14" fill="#8B5CF6" fill-opacity="0.15" />
+    <text x="14" y="23" fill="#C084FC" font-size="11" font-weight="700">04. STREAM PIPELINE</text>
+    <circle cx="190" cy="18" r="3.5" fill="#8B5CF6" />
+
+    <g transform="translate(14, 50)">
+      <rect x="0" y="0" width="182" height="95" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Node-RED Flow Engine</text>
+      <text x="12" y="35" fill="#C084FC" font-family="monospace" font-size="9">Visual ETL Pipelines</text>
+      <text x="12" y="50" fill="#94A3B8" font-size="9">JSON Schema Validator</text>
+      <text x="12" y="66" fill="#64748B" font-family="monospace" font-size="9">Field Normalization</text>
+      <text x="12" y="82" fill="#10B981" font-family="monospace" font-size="9">Timestamp Alignment</text>
+    </g>
+
+    <g transform="translate(14, 160)">
+      <rect x="0" y="0" width="182" height="110" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Python Stream Worker</text>
+      <text x="12" y="35" fill="#38BDF8" font-family="monospace" font-size="9">Micro-batch Accumulator</text>
+      <text x="12" y="50" fill="#10B981" font-family="monospace" font-size="9">5,000 Rows / Batch</text>
+      <text x="12" y="66" fill="#94A3B8" font-size="9">AsyncIO Native Driver</text>
+      <text x="12" y="82" fill="#64748B" font-family="monospace" font-size="9">Zero Overhead TCP</text>
+      <text x="12" y="98" fill="#C084FC" font-family="monospace" font-size="9">Backpressure Manager</text>
+    </g>
+
+    <g transform="translate(14, 285)">
+      <rect x="0" y="0" width="182" height="80" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Edge Alert Dispatcher</text>
+      <text x="12" y="35" fill="#F43F5E" font-family="monospace" font-size="9">Telegram Bot Alerts</text>
+      <text x="12" y="50" fill="#94A3B8" font-size="9">Overvoltage &amp; Surge</text>
+      <text x="12" y="66" fill="#64748B" font-family="monospace" font-size="9">Phase Imbalance Triggers</text>
+    </g>
+
+    <!-- Stage 4 Footer Tag -->
+    <g transform="translate(14, 380)">
+      <rect x="0" y="0" width="182" height="44" rx="6" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-width="1" />
+      <text x="91" y="18" text-anchor="middle" fill="#C084FC" font-family="monospace" font-size="9" font-weight="bold">OPTIMIZED CHUNKING</text>
+      <text x="91" y="32" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="8.5">Max 100ms Ingest Window</text>
+    </g>
+  </g>
+
+  <!-- ==================== STAGE 5: CLICKHOUSE & ANALYTICS ==================== -->
+  <g transform="translate(1065, 130)">
+    <rect x="0" y="0" width="235" height="440" rx="14" fill="#0D1526" stroke="#EC4899" stroke-width="1.5" />
+    <rect x="0" y="0" width="235" height="36" rx="14" fill="#EC4899" fill-opacity="0.15" />
+    <text x="14" y="23" fill="#F472B6" font-size="11" font-weight="700">05. CLICKHOUSE &amp; TWIN</text>
+    <circle cx="215" cy="18" r="3.5" fill="#EC4899" />
+
+    <g transform="translate(14, 50)">
+      <rect x="0" y="0" width="207" height="110" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">ClickHouse Database</text>
+      <text x="12" y="35" fill="#10B981" font-family="monospace" font-size="9">ReplacingMergeTree Engine</text>
+      <text x="12" y="50" fill="#38BDF8" font-family="monospace" font-size="9">PARTITION BY toYYYYMM</text>
+      <text x="12" y="66" fill="#F472B6" font-family="monospace" font-size="9">LZ4 10:1 Compression</text>
+      <text x="12" y="82" fill="#94A3B8" font-size="9">500M+ Rows Indexed</text>
+      <text x="12" y="98" fill="#10B981" font-family="monospace" font-size="9">Query Speed: &lt;15ms</text>
+    </g>
+
+    <g transform="translate(14, 175)">
+      <rect x="0" y="0" width="207" height="95" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">FastAPI &amp; WebSocket Server</text>
+      <text x="12" y="35" fill="#38BDF8" font-family="monospace" font-size="9">Port: 8787 // Sub-10ms API</text>
+      <text x="12" y="50" fill="#64748B" font-family="monospace" font-size="9">Live Telemetry SSE stream</text>
+      <text x="12" y="66" fill="#94A3B8" font-size="9">Energy Bill Oracle Predictor</text>
+      <text x="12" y="82" fill="#C084FC" font-family="monospace" font-size="9">Monthly Bill Calculation</text>
+    </g>
+
+    <g transform="translate(14, 285)">
+      <rect x="0" y="0" width="207" height="80" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Next.js SCADA UI</text>
+      <text x="12" y="35" fill="#10B981" font-family="monospace" font-size="9">Rana Digital Twin Platform</text>
+      <text x="12" y="50" fill="#38BDF8" font-family="monospace" font-size="9">3D Village &amp; Substation Views</text>
+      <text x="12" y="66" fill="#94A3B8" font-size="9">Real-Time Gauges &amp; Drills</text>
+    </g>
+
+    <!-- Stage 5 Footer Tag -->
+    <g transform="translate(14, 380)">
+      <rect x="0" y="0" width="207" height="44" rx="6" fill="#EC4899" fill-opacity="0.1" stroke="#EC4899" stroke-width="1" />
+      <text x="103" y="18" text-anchor="middle" fill="#F472B6" font-family="monospace" font-size="9" font-weight="bold">HIGH-OCTANE STORAGE</text>
+      <text x="103" y="32" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="8.5">10x Disk Cost Reduction</text>
+    </g>
+  </g>
+
+  <!-- ==================== PERFORMANCE STATS STRIP ==================== -->
+  <g transform="translate(50, 600)">
+    <rect x="0" y="0" width="1250" height="135" rx="12" fill="#0F172A" fill-opacity="0.75" stroke="#1E293B" stroke-width="1.5" />
+    
+    <!-- Stat 1 -->
+    <g transform="translate(50, 25)">
+      <text x="0" y="20" fill="#10B981" font-size="28" font-weight="800" font-family="monospace">100K+</text>
+      <text x="0" y="45" fill="#E2E8F0" font-size="12" font-weight="600">Events / Sec</text>
+      <text x="0" y="65" fill="#64748B" font-size="10" font-family="monospace">Peak Ingestion Capacity</text>
+      <text x="0" y="82" fill="#10B981" font-size="9.5" font-family="monospace">✓ Sustained Line-Rate</text>
+    </g>
+
+    <line x1="290" y1="20" x2="290" y2="115" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Stat 2 -->
+    <g transform="translate(340, 25)">
+      <text x="0" y="20" fill="#06B6D4" font-size="28" font-weight="800" font-family="monospace">&lt; 5 MS</text>
+      <text x="0" y="45" fill="#E2E8F0" font-size="12" font-weight="600">End-to-End Latency</text>
+      <text x="0" y="65" fill="#64748B" font-size="10" font-family="monospace">Sensor to ClickHouse Disk</text>
+      <text x="0" y="82" fill="#06B6D4" font-size="9.5" font-family="monospace">✓ Real-time Closed Loop</text>
+    </g>
+
+    <line x1="580" y1="20" x2="580" y2="115" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Stat 3 -->
+    <g transform="translate(630, 25)">
+      <text x="0" y="20" fill="#8B5CF6" font-size="28" font-weight="800" font-family="monospace">90%</text>
+      <text x="0" y="45" fill="#E2E8F0" font-size="12" font-weight="600">Data Compression</text>
+      <text x="0" y="65" fill="#64748B" font-size="10" font-family="monospace">LZ4 Columnar Encoding</text>
+      <text x="0" y="82" fill="#8B5CF6" font-size="9.5" font-family="monospace">✓ 10:1 Footprint Savings</text>
+    </g>
+
+    <line x1="880" y1="20" x2="880" y2="115" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Stat 4 -->
+    <g transform="translate(930, 25)">
+      <text x="0" y="20" fill="#EC4899" font-size="28" font-weight="800" font-family="monospace">99.99%</text>
+      <text x="0" y="45" fill="#E2E8F0" font-size="12" font-weight="600">Pipeline Availability</text>
+      <text x="0" y="65" fill="#64748B" font-size="10" font-family="monospace">Local Buffer + HA Proxmox</text>
+      <text x="0" y="82" fill="#EC4899" font-size="9.5" font-family="monospace">✓ Zero Data Loss SLA</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://sachinrana2025.github.io
+Sitemap: https://sachinrana2025.github.io/sitemap.xml

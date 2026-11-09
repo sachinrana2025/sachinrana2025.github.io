@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 820" width="1350" height="820" style="background-color: #090D16; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+<style>
+path[stroke-dasharray]{animation:ia-flow 1.4s linear infinite}
+@keyframes ia-flow{to{stroke-dashoffset:-20}}
+.ia-pkt{filter:drop-shadow(0 0 4px currentColor)}
+@media (prefers-reduced-motion: reduce){path[stroke-dasharray]{animation:none}.ia-pkt{display:none}}
+</style>
+  <defs>
+    <pattern id="grid4" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.6" />
+    </pattern>
+    <radialGradient id="twinGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glowAmber" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <marker id="arrowCyan" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#06B6D4" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#F59E0B" />
+    </marker>
+    <marker id="arrowEmerald" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#10B981" />
+    </marker>
+  </defs>
+
+  <rect width="1350" height="820" fill="#090D16" />
+  <rect width="1350" height="820" fill="url(#grid4)" />
+  <circle cx="675" cy="410" r="450" fill="url(#twinGlow)" />
+
+  <!-- Diagram Header -->
+  <g transform="translate(50, 36)">
+    <rect x="0" y="0" width="1250" height="58" rx="10" fill="#0F172A" fill-opacity="0.8" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="24" cy="29" r="6" fill="#06B6D4" filter="url(#glowCyan)" />
+    <text x="42" y="26" fill="#F8FAFC" font-size="16" font-weight="700" letter-spacing="0.5">CYBER-PHYSICAL DIGITAL TWIN CLOSED LOOP</text>
+    <text x="42" y="45" fill="#94A3B8" font-size="11" font-family="monospace">PHYSICAL ASSET // TELEMETRY HARVEST // PINN SIMULATOR // DISCREPANCY ANALYSIS // CLOSED-LOOP CONTROL</text>
+    <g transform="translate(1090, 18)">
+      <rect x="0" y="0" width="140" height="22" rx="11" fill="#06B6D4" fill-opacity="0.15" stroke="#06B6D4" stroke-width="1" />
+      <circle cx="14" cy="11" r="3.5" fill="#06B6D4" />
+      <text x="26" y="15" fill="#38BDF8" font-size="9.5" font-family="monospace" font-weight="bold">REAL-TIME SYNC</text>
+    </g>
+  </g>
+
+  <!-- Big Dividing Line: Physical vs Cyber Domain -->
+  <line x1="675" y1="115" x2="675" y2="710" stroke="#1E293B" stroke-width="2" stroke-dasharray="6 6" />
+  
+  <text x="360" y="128" text-anchor="middle" fill="#F59E0B" font-size="12" font-weight="700" font-family="monospace" letter-spacing="2">[ PHYSICAL ASSET REALM ]</text>
+  <text x="990" y="128" text-anchor="middle" fill="#06B6D4" font-size="12" font-weight="700" font-family="monospace" letter-spacing="2">[ DIGITAL TWIN SIMULATION REALM ]</text>
+
+  <!-- ==================== LEFT: PHYSICAL ASSET & TELEMETRY ==================== -->
+  <g transform="translate(60, 150)">
+    <rect x="0" y="0" width="550" height="300" rx="14" fill="#0D1526" stroke="#F59E0B" stroke-width="1.5" />
+    <rect x="0" y="0" width="550" height="38" rx="14" fill="#F59E0B" fill-opacity="0.15" />
+    <text x="16" y="24" fill="#FBBF24" font-size="13" font-weight="700">01. PHYSICAL SYSTEM &amp; SENSOR ARRAY</text>
+    <circle cx="525" cy="19" r="4" fill="#F59E0B" />
+
+    <!-- Sub-grid of Physical Entities -->
+    <g transform="translate(16, 52)">
+      <!-- Equipment Box -->
+      <rect x="0" y="0" width="250" height="150" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="22" fill="#F8FAFC" font-size="12" font-weight="600">Industrial Equipment &amp; Grid</text>
+      <text x="14" y="42" fill="#64748B" font-family="monospace" font-size="9.5">• Rana 3-Phase Substation</text>
+      <text x="14" y="60" fill="#64748B" font-family="monospace" font-size="9.5">• Industrial Chiller &amp; Compressors</text>
+      <text x="14" y="78" fill="#64748B" font-family="monospace" font-size="9.5">• Induction Motor &amp; VFD Drive</text>
+      <text x="14" y="96" fill="#64748B" font-family="monospace" font-size="9.5">• Village Microgrid Distribution</text>
+      <rect x="14" y="112" width="222" height="24" rx="4" fill="#F59E0B" fill-opacity="0.1" />
+      <text x="24" y="128" fill="#F59E0B" font-family="monospace" font-size="9">Physical Noise &amp; Thermal Loads</text>
+    </g>
+
+    <g transform="translate(282, 52)">
+      <!-- Sensors Box -->
+      <rect x="0" y="0" width="250" height="150" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="22" fill="#F8FAFC" font-size="12" font-weight="600">Multimodal Sensor Bus</text>
+      <text x="14" y="42" fill="#10B981" font-family="monospace" font-size="9.5">• High-Precision CT / PT Coils</text>
+      <text x="14" y="60" fill="#10B981" font-family="monospace" font-size="9.5">• Voltage Harmonics (THD %)</text>
+      <text x="14" y="78" fill="#10B981" font-family="monospace" font-size="9.5">• Triaxial Vibration Transducers</text>
+      <text x="14" y="96" fill="#10B981" font-family="monospace" font-size="9.5">• Thermal RTD Probes (100Hz)</text>
+      <rect x="14" y="112" width="222" height="24" rx="4" fill="#10B981" fill-opacity="0.1" />
+      <text x="24" y="128" fill="#10B981" font-family="monospace" font-size="9">Sampling Rate: 0.2s - 1s Interval</text>
+    </g>
+
+    <!-- Edge Filter & Kalman Estimator Bar -->
+    <g transform="translate(16, 218)">
+      <rect x="0" y="0" width="516" height="62" rx="8" fill="#111C33" stroke="#334155" stroke-width="1" />
+      <text x="16" y="22" fill="#38BDF8" font-size="11" font-weight="600">Edge Signal Conditioning &amp; Kalman Filter</text>
+      <text x="16" y="40" fill="#94A3B8" font-family="monospace" font-size="9.5">Outlier rejection // High-frequency spike suppression // PTP Timestamp tagging</text>
+      <text x="16" y="54" fill="#64748B" font-family="monospace" font-size="9">Measured Telemetry Vector: Y_obs = [V_abc, I_abc, PF, Temp, Freq, THD]</text>
+    </g>
+  </g>
+
+  <!-- Forward Telemetry Pathway (Top Feedforward, Left to Right) -->
+  <g>
+    <path d="M 610 230 C 650 200 700 200 740 230" fill="none" stroke="#06B6D4" stroke-width="3" stroke-dasharray="8 4" marker-end="url(#arrowCyan)" />
+<circle class="ia-pkt" r="5" fill="#06B6D4" color="#06B6D4" opacity="0.95"><animateMotion dur="2.6s" begin="0.00s" repeatCount="indefinite" path="M 610 230 C 650 200 700 200 740 230"/></circle>
+    <rect x="635" y="180" width="80" height="22" rx="6" fill="#090D16" stroke="#06B6D4" stroke-width="1" />
+    <text x="675" y="195" text-anchor="middle" fill="#06B6D4" font-family="monospace" font-size="9" font-weight="bold">TELEMETRY</text>
+  </g>
+
+  <!-- ==================== RIGHT: DIGITAL TWIN SIMULATION REALM ==================== -->
+  <g transform="translate(740, 150)">
+    <rect x="0" y="0" width="550" height="300" rx="14" fill="#0D1526" stroke="#06B6D4" stroke-width="1.5" filter="url(#glowCyan)" />
+    <rect x="0" y="0" width="550" height="38" rx="14" fill="#06B6D4" fill-opacity="0.15" />
+    <text x="16" y="24" fill="#38BDF8" font-size="13" font-weight="700">02. PHYSICS-INFORMED NEURAL DIGITAL TWIN</text>
+    <circle cx="525" cy="19" r="4" fill="#06B6D4" />
+
+    <g transform="translate(16, 52)">
+      <!-- Simulation Model Box -->
+      <rect x="0" y="0" width="250" height="150" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="22" fill="#F8FAFC" font-size="12" font-weight="600">Multi-Physics Core (PINN)</text>
+      <text x="14" y="42" fill="#38BDF8" font-family="monospace" font-size="9.5">• Navier-Stokes &amp; Heat Dissipation</text>
+      <text x="14" y="60" fill="#38BDF8" font-family="monospace" font-size="9.5">• Electromagnetic Rotor Flux ODE</text>
+      <text x="14" y="78" fill="#38BDF8" font-family="monospace" font-size="9.5">• Grid Power-Flow Equations</text>
+      <text x="14" y="96" fill="#38BDF8" font-family="monospace" font-size="9.5">• Virtual Hotspot Sensor Calc</text>
+      <rect x="14" y="112" width="222" height="24" rx="4" fill="#06B6D4" fill-opacity="0.1" />
+      <text x="24" y="128" fill="#38BDF8" font-family="monospace" font-size="9">Simulated State: Y_twin(t)</text>
+    </g>
+
+    <g transform="translate(282, 52)">
+      <!-- Discrepancy & Health Index Box -->
+      <rect x="0" y="0" width="250" height="150" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="22" fill="#F8FAFC" font-size="12" font-weight="600">Discrepancy &amp; Health Engine</text>
+      <text x="14" y="42" fill="#8B5CF6" font-family="monospace" font-size="9.5">• Residual: e(t) = |Y_obs - Y_twin|</text>
+      <text x="14" y="60" fill="#8B5CF6" font-family="monospace" font-size="9.5">• Bearing Degradation Index</text>
+      <text x="14" y="78" fill="#8B5CF6" font-family="monospace" font-size="9.5">• Winding Thermal Stress %</text>
+      <text x="14" y="96" fill="#8B5CF6" font-family="monospace" font-size="9.5">• RUL: Remaining Useful Life</text>
+      <rect x="14" y="112" width="222" height="24" rx="4" fill="#8B5CF6" fill-opacity="0.1" />
+      <text x="24" y="128" fill="#C084FC" font-family="monospace" font-size="9">Predictive Anomaly Flagging</text>
+    </g>
+
+    <!-- ClickHouse Storage & 3D WebGL Visualization -->
+    <g transform="translate(16, 218)">
+      <rect x="0" y="0" width="516" height="62" rx="8" fill="#111C33" stroke="#334155" stroke-width="1" />
+      <text x="16" y="22" fill="#10B981" font-size="11" font-weight="600">Live Sync with ClickHouse &amp; WebGL SCADA</text>
+      <text x="16" y="40" fill="#94A3B8" font-family="monospace" font-size="9.5">ReplacingMergeTree writes // 3D Interactive Isometric Twin in Next.js</text>
+      <text x="16" y="54" fill="#64748B" font-family="monospace" font-size="9">Sub-second updates // Spatial heatmaps &amp; automated energy billing</text>
+    </g>
+  </g>
+
+  <!-- Backward Closed-Loop Feedback Pathway (Bottom Feedforward, Right to Left) -->
+  <g>
+    <path d="M 740 540 C 700 580 650 580 610 540" fill="none" stroke="#10B981" stroke-width="3" stroke-dasharray="8 4" marker-end="url(#arrowEmerald)" />
+<circle class="ia-pkt" r="5" fill="#10B981" color="#10B981" opacity="0.95"><animateMotion dur="2.6s" begin="0.45s" repeatCount="indefinite" path="M 740 540 C 700 580 650 580 610 540"/></circle>
+    <rect x="630" y="580" width="90" height="22" rx="6" fill="#090D16" stroke="#10B981" stroke-width="1" />
+    <text x="675" y="595" text-anchor="middle" fill="#10B981" font-family="monospace" font-size="9" font-weight="bold">CONTROL ACTUATION</text>
+  </g>
+
+  <!-- ==================== BOTTOM: CLOSED-LOOP CONTROLLER & ACTUATION ==================== -->
+  <g transform="translate(60, 480)">
+    <rect x="0" y="0" width="550" height="200" rx="14" fill="#0D1526" stroke="#10B981" stroke-width="1.5" />
+    <rect x="0" y="0" width="550" height="36" rx="14" fill="#10B981" fill-opacity="0.15" />
+    <text x="16" y="23" fill="#34D399" font-size="12" font-weight="700">03. SUPERVISORY OPTIMIZATION &amp; ACTUATION</text>
+    <circle cx="525" cy="18" r="3.5" fill="#10B981" />
+
+    <g transform="translate(16, 48)">
+      <rect x="0" y="0" width="250" height="135" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Model Predictive Control (MPC)</text>
+      <text x="12" y="38" fill="#34D399" font-family="monospace" font-size="9">• Optimal Setpoint Governor</text>
+      <text x="12" y="54" fill="#94A3B8" font-family="monospace" font-size="9">• Power Factor Correction</text>
+      <text x="12" y="70" fill="#94A3B8" font-family="monospace" font-size="9">• Chiller VFD Trim (50Hz -&gt; 42Hz)</text>
+      <text x="12" y="86" fill="#94A3B8" font-family="monospace" font-size="9">• Peak Load Shaving Trigger</text>
+      <text x="12" y="104" fill="#10B981" font-family="monospace" font-size="9">Dynamic Energy Optimization</text>
+      <text x="12" y="120" fill="#64748B" font-family="monospace" font-size="8.5">Saves 18.4% Monthly kWh</text>
+    </g>
+
+    <g transform="translate(282, 48)">
+      <rect x="0" y="0" width="250" height="135" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Field Actuators &amp; PLCs</text>
+      <text x="12" y="38" fill="#F59E0B" font-family="monospace" font-size="9">• Modbus Coils &amp; Holding Regs</text>
+      <text x="12" y="54" fill="#94A3B8" font-family="monospace" font-size="9">• Automated Circuit Breakers</text>
+      <text x="12" y="70" fill="#94A3B8" font-family="monospace" font-size="9">• Capacitor Bank Switching</text>
+      <text x="12" y="86" fill="#94A3B8" font-family="monospace" font-size="9">• Emergency Thermal Trip Wire</text>
+      <text x="12" y="104" fill="#F59E0B" font-family="monospace" font-size="9">Deterministic Field Bus</text>
+      <text x="12" y="120" fill="#64748B" font-family="monospace" font-size="8.5">Fail-safe Hardware Interlocks</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM RIGHT: OPERATOR COCKPIT & SCADA TWIN ==================== -->
+  <g transform="translate(740, 480)">
+    <rect x="0" y="0" width="550" height="200" rx="14" fill="#0D1526" stroke="#8B5CF6" stroke-width="1.5" />
+    <rect x="0" y="0" width="550" height="36" rx="14" fill="#8B5CF6" fill-opacity="0.15" />
+    <text x="16" y="23" fill="#C084FC" font-size="12" font-weight="700">04. 3D IMMERSIVE TWIN &amp; OPERATOR COCKPIT</text>
+    <circle cx="525" cy="18" r="3.5" fill="#8B5CF6" />
+
+    <g transform="translate(16, 48)">
+      <rect x="0" y="0" width="250" height="135" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Real-Time 3D WebGL Views</text>
+      <text x="12" y="38" fill="#C084FC" font-family="monospace" font-size="9">• Village Microgrid Layout</text>
+      <text x="12" y="54" fill="#94A3B8" font-family="monospace" font-size="9">• Substation Transformer 3D</text>
+      <text x="12" y="70" fill="#94A3B8" font-family="monospace" font-size="9">• Thermal Color Map Gradient</text>
+      <text x="12" y="86" fill="#94A3B8" font-family="monospace" font-size="9">• Phase Angle Polar Diagrams</text>
+      <text x="12" y="104" fill="#C084FC" font-family="monospace" font-size="9">Interactive Drilldown</text>
+      <text x="12" y="120" fill="#64748B" font-family="monospace" font-size="8.5">Live Socket Feed: 100ms Ping</text>
+    </g>
+
+    <g transform="translate(282, 48)">
+      <rect x="0" y="0" width="250" height="135" rx="8" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="11" font-weight="600">Predictive What-If Sandbox</text>
+      <text x="12" y="38" fill="#38BDF8" font-family="monospace" font-size="9">• Monte Carlo Load Simulation</text>
+      <text x="12" y="54" fill="#94A3B8" font-family="monospace" font-size="9">• Tariff Schedule Simulator</text>
+      <text x="12" y="70" fill="#94A3B8" font-family="monospace" font-size="9">• Extreme Heat Wave Scenario</text>
+      <text x="12" y="86" fill="#94A3B8" font-family="monospace" font-size="9">• Grid Failure Blackstart Run</text>
+      <text x="12" y="104" fill="#38BDF8" font-family="monospace" font-size="9">Synthetic Validation</text>
+      <text x="12" y="120" fill="#64748B" font-family="monospace" font-size="8.5">Zero Disruption to Live Grid</text>
+    </g>
+  </g>
+
+  <!-- Bottom Strip -->
+  <g transform="translate(50, 715)">
+    <rect x="0" y="0" width="1250" height="44" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <text x="20" y="27" fill="#64748B" font-family="monospace" font-size="10.5">TWIN CONTROL LOOP METRICS:</text>
+    <text x="240" y="27" fill="#38BDF8" font-family="monospace" font-size="10.5">• Loop Latency: &lt; 250ms</text>
+    <text x="480" y="27" fill="#10B981" font-family="monospace" font-size="10.5">• Simulation Accuracy: 99.4%</text>
+    <text x="750" y="27" fill="#C084FC" font-family="monospace" font-size="10.5">• Zero Unplanned Downtime</text>
+    <text x="1030" y="27" fill="#FBBF24" font-family="monospace" font-size="10.5">• Autonomous Setpoints: ACTIVE</text>
+  </g>
+</svg>
