@@ -1,0 +1,83 @@
+<!doctype html>
+<!-- Source for public/Sachin_Rana_CV.pdf. Regenerate with: npm run cv -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sachin Rana · CV</title>
+<style>
+  @page { size: A4; margin: 11mm 15mm; }
+  * { box-sizing: border-box; }
+  body { font: 9.1pt/1.36 -apple-system, "Helvetica Neue", Arial, sans-serif; color: #0f172a; margin: 0; }
+  h1 { font: 400 28pt/1 Georgia, "Times New Roman", serif; margin: 0; letter-spacing: -0.01em; }
+  .role { color: #0e7490; font-size: 11pt; margin-top: 5px; }
+  .contact { color: #475569; font-size: 9pt; margin-top: 8px; padding-bottom: 12px; border-bottom: 1.5px solid #0f172a; }
+  .contact span + span::before { content: "·"; margin: 0 7px; color: #94a3b8; }
+  h2 { font: 600 8pt/1 ui-monospace, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; color: #475569; margin: 15px 0 7px; }
+  h3 { font-size: 10pt; margin: 8px 0 2px; display: flex; justify-content: space-between; }
+  h3 small { font-weight: 400; color: #475569; font-size: 9pt; }
+  p { margin: 0; }
+  ul { margin: 4px 0 0; padding-left: 15px; }
+  li { margin: 2px 0; }
+  .metrics { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; margin-top: 12px; }
+  .metrics div { padding: 8px 0; }
+  .metrics b { font: 400 17pt/1 Georgia, serif; display: block; }
+  .metrics span { font-size: 8pt; color: #475569; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 22px; }
+  b { font-weight: 600; }
+</style>
+</head>
+<body>
+  <h1>Sachin Rana</h1>
+  <p class="role">Principal Solutions Architect · Fractional CTO · AI/LLMOps Lead</p>
+  <p class="contact">
+    <span>sachin.rana@live.com</span><span><a href="https://sachinrana2025.github.io" style="color:inherit;text-decoration:none">sachinrana2025.github.io</a></span><span>linkedin.com/in/sachinrana2k11</span><span>New Delhi, India · engagements worldwide</span>
+  </p>
+
+  <h2>Profile</h2>
+  <p>Principal Solutions Architect, currently Infrastructure Lead at Brick AI, with 10+ years designing and running production systems across enterprise multi-cloud (AWS, Azure, hybrid bare metal), sovereign AI and LLMOps (Model Context Protocol, LiteLLM, local inference), and high-throughput industrial telemetry. Track record of cutting recurring cloud spend by up to 85%, zero-loss enterprise database migrations, and nine production physics-informed digital twins. Available for fractional CTO, architecture advisory and fixed-scope delivery engagements.</p>
+
+  <div class="metrics">
+    <div><b>85%</b><span>cloud spend removed</span></div>
+    <div><b>99.999%</b><span>SCADA telemetry reliability</span></div>
+    <div><b>9</b><span>production digital twins</span></div>
+    <div><b>&lt;50 ms</b><span>ClickHouse analytics</span></div>
+  </div>
+
+  <h2>Core capabilities</h2>
+  <ul>
+    <li><b>Cloud &amp; infrastructure:</b> AWS and Azure landing zones, Terraform IaC with drift detection, EKS/AKS, hub-spoke networking, NetBird/WireGuard zero-trust overlays, CrowdSec hardening, Proxmox VE.</li>
+    <li><b>Sovereign AI &amp; LLMOps:</b> MCP server design, multi-agent engineering loops, LiteLLM gateways with token governance and fallback, vLLM/Ollama on private GPUs, Qdrant hybrid RAG.</li>
+    <li><b>Industrial telemetry:</b> ClickHouse (ReplacingMergeTree, materialized views), EMQX Enterprise MQTT, LoRaWAN, Modbus and BACnet, Node-RED, TimescaleDB, PostgreSQL.</li>
+    <li><b>Digital twins:</b> simulation platforms for 33/11 kV substations, chiller plants (COP, enthalpy), VRF systems, data-center cooling and microgrids, bound to live meter data.</li>
+  </ul>
+
+  <h2>Experience</h2>
+  <h3>Infrastructure Lead · Brick AI Inc. <small>02/2025 – present · remote</small></h3>
+  <ul>
+    <li>Lead cloud and on-premise infrastructure: architecture, operations, security, identity and patch management.</li>
+    <li>Manage the edge device fleet across customer sites, and IoT/IIoT connectivity over Modbus and BACnet into reliable telemetry pipelines.</li>
+  </ul>
+  <h3>Lead Solution Architect · Ideaxa Solutions <small>04/2023 – 01/2025</small></h3>
+  <ul>
+    <li><b>Internal delivery platform (autonomous PaaS):</b> detects runtimes (Node.js, Python, .NET 8, Next.js), builds multi-stage containers and provisions TLS domains in under 45 seconds.</li>
+    <li><b>Industrial telemetry:</b> 24/7 ClickHouse pipeline ingesting live smart-meter data with zero data loss over multi-week sustained runs.</li>
+    <li><b>Digital twin suite:</b> nine industrial environments, including a 50 MW data center, central chiller plants and urban distribution grids.</li>
+    <li><b>Bare-metal repatriation:</b> moved heavy compute from public cloud to dedicated GPU and NVMe clusters, cutting recurring cost by 85%.</li>
+  </ul>
+  <h3>Senior Technology Consultant · Ernst &amp; Young LLP <small>04/2022 – 03/2023</small></h3>
+  <h3>IT Analyst · Tata Consultancy Services <small>07/2021 – 11/2021</small></h3>
+  <h3>Lead Consultant · Ideaxa Engineering &amp; Co. <small>02/2019 – 06/2021</small></h3>
+  <h3>IoT Engineer · Shunya Technologies <small>08/2015 – 01/2019</small></h3>
+  <h3>Selected work across these roles <small></small></h3>
+  <ul>
+    <li>Architecture across AWS (VPC, ECS, RDS, Lambda) and Azure (landing zones, AKS, Azure SQL); a 1 TB SQL Server migration to Azure with zero data loss.</li>
+    <li>Compliance-hardened Terraform modules and GitOps CI/CD; edge-to-cloud IIoT for FMCG condition monitoring on Azure IoT Edge.</li>
+  </ul>
+
+  <h2>Education &amp; stack</h2>
+  <div class="two">
+    <p><b>B.Tech, Electronic &amp; Electrical Engineering</b><br>Lovely Professional University, 2011 – 2015</p>
+    <p><b>Languages:</b> Python, TypeScript, Go, .NET, C++, SQL, Bash<br><b>Data:</b> ClickHouse, PostgreSQL, TimescaleDB, Redis, Qdrant</p>
+  </div>
+</body>
+</html>

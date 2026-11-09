@@ -1,0 +1,1632 @@
+{
+  "$schema": "2020-12",
+  "meta": {
+    "title": "Sachin Rana · Master Executive Technical Portfolio & Profile Data",
+    "version": "2.5.0",
+    "generated_at": "2026-10-28T12:00:00Z",
+    "target_file": "/root/sachin-portfolio-content.json",
+    "author": "Sachin Rana",
+    "status": "Production-Ready",
+    "schema_version": "2020-12"
+  },
+  "personal": {
+    "identity": {
+      "name": "Sachin Rana",
+      "first_name": "Sachin",
+      "last_name": "Rana",
+      "display_title": "Principal Solutions Architect · AI/LLMOps Lead · IIoT & Telemetry Specialist",
+      "short_headline": "Zero-Cloud-Tax Architect · Sovereign AI Lead · Industrial Digital Twin Builder",
+      "taglines": [
+        "Bridging low-level systems engineering (Linux kernel, hardware telemetry, edge IoT) with enterprise cloud architectures, autonomous AI orchestration, and zero-tax self-hosted infrastructure.",
+        "Architecting high-throughput bare-metal computing, sovereign LLM inference gateways, and deterministic microsecond telemetry.",
+        "From ESP32 firmware and 11kV substation telemetry to 50MW AI data center digital twins and multi-agent autonomous engineering teams."
+      ]
+    },
+    "contacts": {
+      "primary_email": "sachin.rana@live.com",
+      "locations": [
+        {
+          "city": "New Delhi",
+          "region": "National Capital Region (NCR)",
+          "country": "India",
+          "type": "Primary Engineering Operations & Global Remote Base",
+          "timezone": "IST (Asia/Kolkata, UTC+05:30)"
+        }
+      ],
+      "social_and_portals": {
+        "linkedin": "https://www.linkedin.com/in/sachinrana2k11"
+      }
+    },
+    "executive_summary": "Versatile Information Technology Leader and Principal Solutions Architect with over a decade of hands-on systems engineering experience spanning low-level embedded hardware (ESP32, LoRaWAN, C/C++ firmware), industrial SCADA and edge computing (Modbus, BACnet, Azure IoT Edge), high-throughput real-time time-series analytics (ClickHouse, EMQX), enterprise hybrid cloud infrastructure (AWS Landing Zones, Azure AKS, Terraform IaC, Proxmox VE), and sovereign AI orchestration (LiteLLM, vLLM, Ollama, MCP protocol, multi-agent autonomous teams with episodic memory). Proven track record cutting infrastructure cloud tax by 85% via bare-metal optimization, orchestrating zero-downtime 1TB enterprise database migrations, and shipping 9 production industrial digital twins.",
+    "education": [
+      {
+        "degree": "Bachelor of Technology (B.Tech)",
+        "field_of_study": "Electronic and Electrical Engineering (EEE)",
+        "institution": "Lovely Professional University (LPU)",
+        "location": "Punjab, India",
+        "period": "2011 – 2015",
+        "focus_areas": [
+          "Power Systems Analysis & Electrical Grid Instrumentation",
+          "Microprocessors, Microcontrollers & Embedded Systems",
+          "Digital Signal Processing & Real-Time Sensor Interfacing",
+          "Control Systems Engineering & SCADA Automation",
+          "Electromagnetic Theory & RF Communications"
+        ]
+      },
+      {
+        "degree": "Intermediate (10+2 Higher Secondary)",
+        "field_of_study": "Physics, Chemistry, Mathematics (PCM), Hindi, English",
+        "institution": "GIC Kelakhera",
+        "location": "Uttarakhand, India",
+        "period": "2009 – 2011"
+      },
+      {
+        "degree": "High School (10th Secondary)",
+        "field_of_study": "Science, Mathematics, Social Studies, Hindi, English, Art",
+        "institution": "GIC Kelakhera",
+        "location": "Uttarakhand, India",
+        "period": "2007 – 2009"
+      }
+    ]
+  },
+  "impact_metrics": [
+    {
+      "id": "exp_years",
+      "metric": "10+ Years",
+      "label": "Deep Systems & Cloud Engineering",
+      "category": "Experience & Mastery",
+      "description": "A decade of progressive hands-on engineering bridging bare-metal hardware, IoT firmware, enterprise cloud landing zones, and sovereign autonomous AI systems.",
+      "verified_evidence": "Career trajectory spanning Shunya Tech (2015) through TCS, EY, Ideaxa Solutions, to Infrastructure Lead at Brick AI (2025-present)."
+    },
+    {
+      "id": "cost_reduction",
+      "metric": "85%",
+      "label": "Enterprise Cloud Cost Reduction",
+      "category": "Cost Optimization & ROI",
+      "description": "Eliminated recurring hyperscaler tax by replacing managed cloud DBs and third-party SaaS LLM API endpoints with high-density bare-metal GPU nodes, Proxmox hypervisors, and NVMe ClickHouse clusters.",
+      "verified_evidence": "Migrated heavy LLM token usage and time-series telemetry pipelines to private data-lake cluster and Proxmox VE, slashing monthly cloud infrastructure expenses."
+    },
+    {
+      "id": "digital_twins",
+      "metric": "9 Twins",
+      "label": "Production Industrial Digital Twins",
+      "category": "Industrial IoT & Simulation",
+      "description": "Architected and shipped 9 production physics-informed digital twins covering 50MW AI data centers, 4,940 MT ammonia cold storage, 10-floor office VRF, 33/11 kV substations, and residential microgrids.",
+      "verified_evidence": "Live platform operational at a private client portal, packaged as versioned Docker images with live ClickHouse telemetry bindings."
+    },
+    {
+      "id": "telemetry_latency",
+      "metric": "Sub-50ms",
+      "label": "ClickHouse Query Latency",
+      "category": "Time-Series Performance",
+      "description": "Authored specialized ReplacingMergeTree and AggregatingMergeTree materialized views over multi-million-row industrial electrical telemetry datasets, maintaining sub-50ms analytical response times.",
+      "verified_evidence": "Production production ClickHouse deployment processing continuous electrical telemetry across multiple sites with sub-second dashboard refreshes."
+    },
+    {
+      "id": "edge_nodes",
+      "metric": "100+ Nodes",
+      "label": "Industrial Gateways & Edge Nodes",
+      "category": "Edge & Embedded Scale",
+      "description": "Designed, programmed, and field-deployed industrial microcontrollers, LoRaWAN towers, RS485 Modbus loggers, and ESP32 edge units across smart factories, smart cities, and power distribution grids.",
+      "verified_evidence": "Field-deployed LoRaWAN gateways, smart meters, and ESP32 environmental sensors with custom C++/Python failover firmware and offline buffering."
+    },
+    {
+      "id": "database_migration",
+      "metric": "1TB DB",
+      "label": "Zero-Loss SQL Database Migration",
+      "category": "Enterprise Cloud Migration",
+      "description": "Spearheaded end-to-end migration of a mission-critical 1TB on-premise Microsoft SQL Server database to Azure SQL Managed Instances with zero data loss and minimal cutover window.",
+      "verified_evidence": "Architected Azure Blob Storage backup staging and automated differential restore pipelines for an enterprise corporate transformation client."
+    },
+    {
+      "id": "paas_deploys",
+      "metric": "45-Second",
+      "label": "Container Deploys on an Internal Delivery Platform",
+      "category": "DevOps & Platform Engineering",
+      "description": "Engineered an internal zero-cloud-tax delivery platform (used to ship client work, never sold as a product) that ingests raw project ZIPs, auto-detects polyglot runtimes via AST heuristics, builds Docker containers, and registers TLS ingress.",
+      "verified_evidence": "Automated pipeline supporting Node.js 22, Python 3.12 (FastAPI/Flask),.NET 8, and Next.js static exports with dynamic host port mapping and NetBird reverse proxy."
+    },
+    {
+      "id": "ingestion_throughput",
+      "metric": "7.8M Rows/s",
+      "label": "ClickHouse Peak Ingestion Throughput",
+      "category": "Data Engineering & Scale",
+      "description": "Benchmarked and deployed a High-Availability 2-node ClickHouse cluster on Alpine LXC with HAProxy leastconn load balancing and ClickHouse Keeper Raft consensus, achieving 500k rows ingested in 0.064s.",
+      "verified_evidence": "Verified cluster topology on the primary Proxmox cluster with automatic active-passive failover and zero ingestion downtime."
+    }
+  ],
+  "tabs": {
+    "tab_1_executive_overview": {
+      "tab_id": "tab-1-executive-overview",
+      "tab_name": "Executive Overview & Hero Highlights",
+      "badge": "Leadership & Architecture",
+      "hero_headline": "Bridging Bare-Metal Edge Telemetry with Sovereign AI & Cloud Architecture",
+      "hero_subheadline": "Architecting zero-cloud-tax platforms, high-throughput time-series engines, and multi-agent autonomous engineering teams.",
+      "architectural_philosophy": [
+        {
+          "pillar": "The Zero-Cloud-Tax Paradigm",
+          "tagline": "Dismantling Hyperscaler Rents via Bare-Metal Density",
+          "concept": "Hyperscalers charge a 5x to 10x premium on managed databases, bandwidth, and AI API tokens. By orchestrating high-density bare-metal hypervisors (Proxmox VE, ZFS NVMe storage pools, enterprise and consumer GPUs like RTX 5060 Ti, 3090 Ti, Apple M5 Pro), organizations slash recurring cloud expenses by 85% while unlocking 3x to 10x lower latency and deterministic throughput."
+        },
+        {
+          "pillar": "Sovereign AI Infrastructure",
+          "tagline": "Air-Gapped, Private & Controllable AI Serving",
+          "concept": "Enterprise intelligence, industrial SCADA parameters, and confidential IP cannot be entrusted to public multi-tenant AI endpoints. Sachin architects sovereign, private LLM routing gateways (LiteLLM, vLLM, Ollama) equipped with strict token governance, localized vector memory (Qdrant, MemOS), FastMCP tooling, and programmatic guardrails."
+        },
+        {
+          "pillar": "Deterministic Edge-to-Cloud Telemetry",
+          "tagline": "Microsecond Telemetry Ingestion from Physical Gateways to Analytics",
+          "concept": "Industrial systems require non-blocking, zero-loss telemetry pipelines. From low-level C++ firmware and LoRaWAN gateways to EMQX Enterprise MQTT brokers and ClickHouse column-oriented time-series engines, every electrical and physical event is captured, validated, and queried in sub-50ms."
+        }
+      ],
+      "core_capabilities_matrix": [
+        {
+          "domain": "Autonomous AI & LLMOps",
+          "summary": "Production LLM routing, local GPU inference, multi-agent autonomous engineering teams, episodic SQLite memory, and MCP tool protocols.",
+          "key_technologies": [
+            "LiteLLM",
+            "vLLM",
+            "Ollama",
+            "FastMCP",
+            "MemOS",
+            "Qdrant",
+            "DeepSeek",
+            "Qwen 2.5/3.5",
+            "GGUF IQ4/Q4"
+          ]
+        },
+        {
+          "domain": "Enterprise Cloud & DevOps",
+          "summary": "AWS & Azure Landing Zones, Terraform IaC, EKS/AKS Kubernetes, Proxmox VE hypervisors, NetBird zero-trust overlays, and autonomous PaaS.",
+          "key_technologies": [
+            "Terraform",
+            "AWS",
+            "Azure",
+            "Proxmox VE",
+            "Docker",
+            "NetBird",
+            "WireGuard",
+            "CrowdSec",
+            "Caddy"
+          ]
+        },
+        {
+          "domain": "High-Throughput IIoT & Telemetry",
+          "summary": "Real-time time-series databases, industrial fieldbus protocols, Modbus/BACnet integration, EMQX MQTT clustering, and forensic power quality analytics.",
+          "key_technologies": [
+            "ClickHouse",
+            "EMQX Enterprise",
+            "Node-RED",
+            "LoRaWAN",
+            "Modbus RTU/TCP",
+            "BACnet",
+            "ESP32",
+            "DuckDB"
+          ]
+        },
+        {
+          "domain": "Industrial Digital Twins",
+          "summary": "Physics-informed simulation engines, WebGL/SVG isometric visual SCADA, real-time COP & PUE telemetry, and live meter bindings.",
+          "key_technologies": [
+            "Next.js 14+",
+            "SVG Vector Modeling",
+            "WebGL",
+            "Server-Sent Events",
+            "Physics Modeling",
+            "Docker"
+          ]
+        }
+      ],
+      "quantified_track_record": [
+        {
+          "title": "Internal Delivery Platform",
+          "metrics": "45-second builds · 100% build reliability · dynamic port pool",
+          "details": "Engineered and deployed an internal zero-cloud-tax delivery platform on private bare-metal, used to ship client work and never sold as a product. It ingests project ZIPs, executes AST runtime detection (.NET 8, Python FastAPI/Flask, Node 22, Next.js), generates multi-stage container builds, and provisions HTTPS domains via NetBird in under 45 seconds."
+        },
+        {
+          "title": "Continuous Industrial Smart Meter Telemetry Pipeline",
+          "metrics": "Zero data loss · 11+ days uninterrupted uptime · Sub-50ms queries",
+          "details": "Architected an end-to-end industrial telemetry pipeline streaming physical smart meters (Facility Primary Node, Commercial Complex C, Substation Node B) via LoRaWAN gateways and EMQX into ClickHouse ReplacingMergeTree tables, providing automated blackout vs voltage sag forensics."
+        },
+        {
+          "title": "85% Cloud Cost Optimization via Bare-Metal Sovereignty",
+          "metrics": "85% cost reduction · Sub-second AI inference · $0 cloud token bills",
+          "details": "Replaced overpriced hosted cloud LLM endpoints and managed databases with self-hosted bare-metal GPU nodes (NVIDIA RTX 5060 Ti, 3090 Ti) and NVMe storage clusters, completely eliminating recurring hyperscaler compute rents."
+        },
+        {
+          "title": "High-Density Virtualization & Uptime Governance",
+          "metrics": "100% stability across 29+ production containers · Proxmox VE 8+",
+          "details": "Maintained continuous high-availability production uptime across private data-lake cluster and Proxmox hypervisor, orchestrating unprivileged LXC containers with Docker nesting and KVM GPU passthrough."
+        },
+        {
+          "title": "Zero-Downtime 1TB Enterprise Database Migration",
+          "metrics": "1TB MS SQL Server · Zero data loss · 100% schema integrity",
+          "details": "Designed and executed the enterprise migration of a 1TB on-premise Microsoft SQL Server database to Azure SQL Managed Instances using staged Azure Blob Storage differential backups."
+        },
+        {
+          "title": "FMCG Factory Condition Monitoring Solution (CMS)",
+          "metrics": "24/7 shop-floor breakdown alerts · 100+ edge sensor streams",
+          "details": "Architected a condition monitoring solution for a premier FMCG enterprise utilizing Azure IoT Edge runtime modules, capturing machine vibration, temperature, and current signatures for predictive maintenance."
+        },
+        {
+          "title": "High-Availability ClickHouse Cluster Ingestion",
+          "metrics": "7.8M rows/sec peak ingestion · 500k rows in 0.064s · HAProxy VIP",
+          "details": "Engineered a 2-node ClickHouse cluster on Alpine LXC coordinated via ClickHouse Keeper Raft consensus, load-balanced via HAProxy with active-passive automatic failover."
+        },
+        {
+          "title": "Multi-Agent Autonomous Workforce Orchestration (A2A)",
+          "metrics": "Sub-agent delegation · SQLite holographic episodic memory · Role gates",
+          "details": "Built multi-agent autonomous engineering networks communicating over Agent-to-Agent (A2A) REST protocols, with dedicated Manager and Employee worker containers executing self-evolving cron jobs and code verification."
+        }
+      ],
+      "target_roles": [
+        {
+          "title": "Fractional CTO / Technical Co-Founder",
+          "focus": "Guiding technical strategy, evaluating build vs. buy tradeoffs, slashing infrastructure run-rates, and standing up sovereign AI systems for ambitious growth companies."
+        },
+        {
+          "title": "Principal Solutions Architect / Enterprise Cloud Lead",
+          "focus": "Architecting resilient hybrid cloud topologies (AWS/Azure), infrastructure-as-code automation (Terraform), and enterprise database migrations."
+        },
+        {
+          "title": "Head of AI Infrastructure / LLMOps Lead",
+          "focus": "Building private LLM serving infrastructure, FastMCP server ecosystems, local GPU inference clusters, and multi-agent autonomous workflows."
+        },
+        {
+          "title": "Industrial IoT & Edge Computing Systems Lead",
+          "focus": "Architecting large-scale SCADA pipelines, Modbus/BACnet fieldbus integrations, LoRaWAN gateways, and ClickHouse time-series data lakes."
+        }
+      ]
+    },
+    "tab_2_enterprise_cloud_devops": {
+      "tab_id": "tab-2-enterprise-cloud-devops",
+      "tab_name": "Enterprise Cloud & DevOps",
+      "badge": "Cloud, Virtualization & PaaS",
+      "overview": "Architecting robust enterprise cloud landing zones, automated Terraform IaC pipelines, high-density bare-metal hypervisors, and autonomous zero-cloud-tax PaaS deployment platforms.",
+      "subsections": {
+        "cloud_landing_zones": {
+          "title": "AWS & Azure Enterprise Landing Zones",
+          "description": "Production-grade multi-account architectures designed for security, governance, and seamless hybrid cloud interconnectivity.",
+          "architectural_highlights": [
+            "Multi-Account Governance: AWS Organizations, AWS Control Tower, Service Control Policies (SCPs), and Azure Management Groups with strict subscription isolation.",
+            "Hybrid Networking: AWS Transit Gateway, Azure Virtual WAN, Hub-and-Spoke VPC peering, and IPsec VPN / Direct Connect / ExpressRoute dedicated routing.",
+            "Least-Privilege Security Boundaries: IAM permission boundaries, fine-grained role-based access control (RBAC), KMS/Key Vault envelope encryption, and AWS GuardDuty/Azure Defender security postures.",
+            "Egress & Ingress Control: Centralized NAT Gateway inspection pools, Web Application Firewalls (AWS WAF, Azure Front Door), and GeoIP egress filters."
+          ]
+        },
+        "terraform_iac_automation": {
+          "title": "Infrastructure as Code (IaC) with Terraform",
+          "description": "Deterministic, modular Terraform automation enabling 100% reproducible environments across public clouds and local emulators.",
+          "architectural_highlights": [
+            "Modular Architecture: Decoupled Terraform modules for Networking (VPCs, Subnets, Route Tables), Compute (ECS, EKS, AKS, EC2), Storage (S3, RDS, Blob Storage), and Security (IAM, SG, ACLs).",
+            "State Governance: Remote backend state locking with Amazon S3 and DynamoDB or Azure Blob Storage with optimistic concurrency control.",
+            "Cloud Emulator Sandbox: Built an automated CI/CD validation pipeline utilizing Floci 2.1.0 / LocalStack on a dedicated Proxmox VM, allowing developers to test 55+ AWS services locally before production cloud deployment."
+          ],
+          "sample_code_snippet": {
+            "language": "hcl",
+            "title": "Production Terraform AWS Ingress & ECS Service Module",
+            "code": "module \"vpc\" { source = \"terraform-aws-modules/vpc/aws\" version = \"5.1.0\" name = \"prod-vpc\" cidr = \"\" azs = [\"us-east-1a\", \"us-east-1b\"] private_subnets = [\"\", \"\"] public_subnets = [\"\", \"\"] enable_nat_gateway = true single_nat_gateway = true\n} resource \"aws_ecs_cluster\" \"core\" { name = \"core-services\" setting { name = \"containerInsights\" value = \"enabled\" }\n}"
+          }
+        },
+        "container_orchestration": {
+          "title": "Container Orchestration & Microservices (EKS, AKS, Docker)",
+          "description": "High-efficiency container runtime administration spanning hyperscaler managed Kubernetes and bare-metal Docker engines.",
+          "architectural_highlights": [
+            "Kubernetes Administration: Deployed and operated production EKS and AKS clusters utilizing Calico CNI, Traefik/NGINX Ingress Controllers, cert-manager automated TLS, and Prometheus-Operator monitoring.",
+            "High-Efficiency Alpine Containers: Standardized multi-stage container builds that shrink bloated 1GB+ dev images down to sub-80MB Alpine release artifacts.",
+            "Host Socket Execution & Sibling Containers: Mastered secure Docker socket (/var/run/docker.sock) mounting for containerized PaaS runners with strict filesystem path parity between host and container."
+          ]
+        },
+        "bare_metal_virtualization": {
+          "title": "Bare-Metal Virtualization (Proxmox VE 8+)",
+          "description": "Enterprise hypervisor engineering delivering bare-metal hardware speed with cloud-like virtualization flexibility.",
+          "architectural_highlights": [
+            "High-Density Unprivileged LXC: Running 10+ isolated Linux containers with nesting=1 support for Docker engines at near-zero virtualization overhead.",
+            "PCI Passthrough & GPU Compute: KVM virtual machine hypervisors configured with IOMMU GPU passthrough (NVIDIA RTX 5060 Ti, 3090 Ti) for sovereign AI inference.",
+            "Linux Kernel Optimization: Persisted sysctl tuning (vm.swappiness=10, dirty_ratio=10) eliminating swap thrashing and keeping RAM latency deterministic."
+          ]
+        },
+        "zero_trust_mesh_networking": {
+          "title": "Zero-Trust Mesh Networking (NetBird & WireGuard)",
+          "description": "Encrypted multi-site hybrid overlay connecting distributed bare-metal nodes, edge gateways, and public entrypoints.",
+          "architectural_highlights": [
+            "Peer-to-Peer WireGuard Overlay: Interconnected primary site, primary site, primary site, and primary site (DigitalOcean) without exposing raw ports to the public Internet.",
+            "Automated Service Proxy Ingress: NetBird Service Proxies dynamically registering public subdomains routing to internal host ports with Let's Encrypt TLS certificates.",
+            "Layer-7 Security & GeoIP Enforcement: CrowdSec intrusion prevention system paired with country-level GeoIP allowlisting (allowing IN/US traffic while neutralizing scanning bots)."
+          ]
+        },
+        "case_study_sql_migration": {
+          "title": "Case Study: 1TB Enterprise Microsoft SQL Server Migration to Azure",
+          "client_profile": "Enterprise Corporate Transformation Client",
+          "challenge": "Migrate an on-premise datacenter Microsoft SQL Server holding 1TB of mission-critical relational data to Azure SQL Managed Instance with minimal business interruption and zero data corruption.",
+          "solution_architecture": [
+            "Designed full process architecture pattern and migration playbooks.",
+            "Leveraged high-throughput Azure Blob Storage containers for compressed native SQL backup staging with SAS token authentication.",
+            "Executed multi-phase restore: full baseline backup restore followed by sequential log-shipping differential syncs to minimize final cutover downtime.",
+            "Provisioned Azure SQL Managed Instance with dedicated compute tiers, automated maintenance windows, and encrypted TDE data protection."
+          ],
+          "outcome": "100% data fidelity, zero data loss, cutover executed within scheduled maintenance window, leading to 35% improvement in database query throughput and automated disaster recovery."
+        },
+        "autonomous_paas": {
+          "title": "Autonomous PaaS Platform",
+          "description": "Zero-cloud-tax autonomous deployment engine turning raw source code ZIPs into secure, containerized, HTTPS-accessible web applications in 45 seconds.",
+          "pipeline_stages": [
+            {
+              "stage": "1. Ingestion & Sandbox Isolation",
+              "details": "Accepts archive ZIPs, extracts into isolated host directories (an isolated workspace), cleans OS metadata (__MACOSX,.DS_Store), and executes recursive auto-flattening."
+            },
+            {
+              "stage": "2. AST Heuristic Runtime Detection",
+              "details": "Inspects codebase manifests to automatically identify runtimes: Node 22 (Express/API), Next.js (Static export / Node server), Python 3.12 (FastAPI with Uvicorn, Flask with Gunicorn), and.NET 8 (C# Web API with Kestrel on port 8080)."
+            },
+            {
+              "stage": "3. Dynamic Port & Compose Synthesis",
+              "details": "Probes physical OS socket listeners to find guaranteed free host ports, generates multi-stage Dockerfiles and docker-compose.yml with CPU/memory limits, and executes docker compose up -d --build."
+            },
+            {
+              "stage": "4. Ingress & Passwordless Auth",
+              "details": "Calls NetBird REST API to register TLS route mapping to the allocated host port, streams build progress via Server-Sent Events (SSE), and protects user accounts via passwordless 6-digit email OTPs."
+            }
+          ]
+        }
+      }
+    },
+    "tab_3_autonomous_ai_llmops": {
+      "tab_id": "tab-3-autonomous-ai-llmops",
+      "tab_name": "Autonomous AI & LLMOps",
+      "badge": "Sovereign AI & Agentic Workflows",
+      "overview": "Architecting sovereign on-premise AI inference stacks, centralized LLM routing proxies, FastMCP tool ecosystems, and multi-agent autonomous engineering teams with episodic memory.",
+      "subsections": {
+        "sovereign_local_inference": {
+          "title": "Sovereign AI & Bare-Metal Local Inference Stacks",
+          "description": "High-throughput, private LLM serving infrastructure deployed directly on private bare metal to eliminate cloud API egress, token taxation, and confidentiality leaks.",
+          "hardware_inventory": [
+            {
+              "device": "Primary GPU inference node",
+              "spec": "NVIDIA GeForce RTX 5060 Ti · 16GB GDDR6 VRAM",
+              "runtimes": [
+                "Ollama",
+                "vLLM",
+                "llama.cpp"
+              ],
+              "primary_models": "qwen3.8:27b · Ornith 35B · lfm2.5:8b · gemma-4-e2b"
+            },
+            {
+              "device": "Bare-Metal Deep Learning Rig",
+              "spec": "NVIDIA GeForce RTX 3090 Ti · 24GB GDDR6X VRAM",
+              "runtimes": [
+                "vLLM (PagedAttention)",
+                "TensorRT-LLM"
+              ],
+              "primary_models": "Qwen 2.5 72B (AWQ/GPTQ) · DeepSeek-Coder 33B"
+            },
+            {
+              "device": "Workstation Neural Engine",
+              "spec": "Apple Silicon M5 Pro · 48GB Unified Memory (High-Bandwidth)",
+              "runtimes": [
+                "llama.cpp Metal",
+                "MLX"
+              ],
+              "primary_models": "DeepSeek V3 / R1 (GGUF Q4_K_M) · Llama 3.3 70B"
+            },
+            {
+              "device": "Primary data-lake node",
+              "spec": "NVIDIA GeForce RTX 2060 · 6GB VRAM",
+              "runtimes": [
+                "Ollama",
+                "FastAPI RAG Studio",
+                "Docling OCR"
+              ],
+              "primary_models": "energy-slm-0.5b (Fine-Tuned) · qwen2.5:1.5b · nomic-embed-text"
+            }
+          ],
+          "quantization_mastery": [
+            "GGUF Quantization Precision: Deep experience selecting optimal quantization profiles (IQ4_XS, Q4_K_M, Q5_K_M, Q8_0) balancing perplexity scores against memory bandwidth limits.",
+            "PagedAttention & KV Cache Paging: Tuned vLLM serving parameters (gpu_memory_utilization=0.92, max_num_seqs=256) to maximize token throughput for concurrent agent requests.",
+            "Sub-Second Tool-Calling Models: Championed LiquidAI LFM2-1.2B-Tool-GGUF (1.16 GiB VRAM footprint, 0.24s latency) as the optimal lightweight edge model for instant JSON tool synthesis."
+          ]
+        },
+        "litellm_gateway_proxy": {
+          "title": "LiteLLM Gateway & Multi-Model Proxy Architecture",
+          "description": "Production LLM routing gateway managed under systemd and Docker, providing unified OpenAI-compatible endpoints with governance and resilience.",
+          "architectural_highlights": [
+            "Centralized Routing Engine: Deployed LiteLLM Gateway routing across local GPUs (Ollama, vLLM) and hosted foundation models (DeepSeek V4 Flash, MiniMax, Kimi K2.7).",
+            "Multi-Tenant Quota & Key Management: Backed by PostgreSQL database for persistent API key generation, team budget caps, and audit logs.",
+            "Real-Time Rate Limiting: Backed by Redis cluster enforcing precise Requests Per Minute (RPM) and Tokens Per Minute (TPM) ceilings per client application.",
+            "Automated Fallback Cascades: Dynamic router configuration that intercepts 429 rate limits or 500 server timeouts and falls back to secondary models in under 150ms without dropping client SSE streams.",
+            "Enterprise Guardrail Pipeline: Built custom code guardrails (SqlSafetyGuard) intercepting destructive SQL keywords (DROP, TRUNCATE, ALTER) in prompts before reaching database MCPs, alongside Presidio PII filtering."
+          ]
+        },
+        "mcp_server_ecosystem": {
+          "title": "Model Context Protocol (MCP) Server Infrastructure",
+          "description": "Custom FastMCP servers transforming static AI models into autonomous systems capable of executing database queries, system operations, and telemetry inspections.",
+          "deployed_servers": [
+            {
+              "name": "clickhouse-mcp",
+              "runtime": "FastMCP 3.4.5 / Python 3.12",
+              "transport": "SSE (Server-Sent Events) over HTTP",
+              "auth": "Bearer Token authentication",
+              "tools": [
+                "list_databases",
+                "list_tables",
+                "run_select_query"
+              ],
+              "capabilities": "Executes read-only analytical SQL against ClickHouse production dataset, returning structured column/row JSON arrays."
+            },
+            {
+              "name": "duckdb-mcp",
+              "runtime": "FastMCP 3.4.5",
+              "tools": [
+                "query",
+                "list_tables",
+                "describe_table",
+                "load_parquet",
+                "load_csv",
+                "list_views"
+              ],
+              "capabilities": "High-speed analytical inspection over local Parquet time-series dumps without database server overhead."
+            },
+            {
+              "name": "postgres-mcp",
+              "runtime": "FastMCP 3.4.5",
+              "tools": [
+                "query",
+                "describe_schema",
+                "execute_transaction"
+              ],
+              "capabilities": "Transactional data access for multi-tenant LiteLLM metadata and user state management."
+            },
+            {
+              "name": "sqlite-mcp",
+              "runtime": "FastMCP 3.4.5",
+              "tools": [
+                "query",
+                "inspect_table",
+                "backup_db"
+              ],
+              "capabilities": "Direct access to local episodic memory databases and state stores."
+            }
+          ]
+        },
+        "autonomous_multi_agent_teams": {
+          "title": "Autonomous Multi-Agent Teams & A2A Orchestration",
+          "description": "Production multi-agent engineering workflows leveraging hierarchical Agent-to-Agent (A2A) REST protocols and specialized role gates.",
+          "architectural_highlights": [
+            "A2A Inter-Agent Mesh: Built multi-container agent teams where Master/Manager agent orchestrates and assigns sub-tasks to Employee worker agents via authenticated A2A protocols.",
+            "Specialized Agent Role Gates: Strict separation of concerns across agent personas: Engineer (code generation & dynamic patching), Architect (topology design & security policy), Auditor (forensics & automated test validation), and CFO (cloud tax & ROI auditing).",
+            "Strict Human-in-the-Loop Governance: Built-in safety interlocks requiring explicit manual authorization before any infrastructure mutation, server credential change, or firewall policy update."
+          ]
+        },
+        "persistent_memory_rag": {
+          "title": "Persistent Episodic & Holographic Memory Architecture",
+          "description": "Multi-tiered memory architecture providing autonomous agents with long-term cross-session recall and verified domain ground truth.",
+          "memory_layers": [
+            {
+              "layer": "MemOS Holographic Fact Store",
+              "technology": "SQLite WAL Engine (~/.hermes/memory_store.db)",
+              "role": "Single source of truth for exact operational facts, service inventories and device mappings. Supports probe, reason, search, and update actions."
+            },
+            {
+              "layer": "EverOS Semantic Cloud Recall",
+              "technology": "EverOS Cloud Vector Recall (api.evermind.ai)",
+              "role": "Cross-session contextual memory storing behavioral traits, conversational history, and architectural decisions, synchronized via daily cron at 23:30 IST."
+            },
+            {
+              "layer": "Qdrant Vector Database & RAG Studio",
+              "technology": "Qdrant (self-hosted) · RAG Studio",
+              "role": "Dense and hybrid vector search over engineering documentation, skills, and hardware manuals across separate agent and production-memory collections."
+            }
+          ]
+        },
+        "custom_model_fine_tuning": {
+          "title": "Domain-Specific SLM Fine-Tuning: energy-slm-0.5b",
+          "dataset_scale": "60,000 domain-specific examples across 4 layers (schema, syntax, forensic analysis, historical electrical events)",
+          "training_duration": "8 hours 16 minutes on private RTX 2060 GPU",
+          "model_spec": "994 MB GGUF Q4_K_M edge model deployed on self-hosted Ollama",
+          "purpose": "Specialized edge model trained to generate zero-error ClickHouse SQL queries against the production schema, enforce mandatory MAX-MIN energy delta calculations, and identify phase imbalances with sub-second response times."
+        }
+      }
+    },
+    "tab_4_high_throughput_iiot_telemetry": {
+      "tab_id": "tab-4-high-throughput-iiot-telemetry",
+      "tab_name": "High-Throughput IIoT & Telemetry",
+      "badge": "ClickHouse, EMQX & SCADA",
+      "overview": "Architecting ultra-reliable industrial telemetry backbones, high-speed ClickHouse time-series data lakes, enterprise MQTT clustering, and forensic power quality analytics.",
+      "subsections": {
+        "clickhouse_architecture": {
+          "title": "ClickHouse Real-Time Time-Series Data Lake",
+          "primary_tables": [
+            {
+              "table": "EnergyMeasurement_mv",
+              "engine": "ReplacingMergeTree / AggregatingMergeTree",
+              "scale": "2,000,000+ active rows · Millions of daily telemetry events",
+              "key_columns": "deviceid (String), timestamp (DateTime UTC), voltage_l_n (Float), current (Float), active_power (Float), power_factor (Float), frequency (Float), total_active_energy (Float)",
+              "partition_and_sort": "PARTITION BY toDate(timestamp) ORDER BY (deviceid, timestamp)",
+              "query_latency": "Sub-50ms analytical response times for 30-day aggregations"
+            },
+            {
+              "table": "SensorMeasurement_mv",
+              "engine": "ReplacingMergeTree",
+              "key_columns": "deviceid (String), timestamp (DateTime UTC), temperature (Float), humidity (Float)",
+              "source": "ESP32 DHT11 physical sensors deployed across residential and server environments"
+            }
+          ],
+          "architectural_highlights": [
+            "High-Availability Clustering: Engineered 2-node ClickHouse cluster with ClickHouse Keeper Raft coordination and HAProxy leastconn load balancing.",
+            "Extreme Ingestion Throughput: Benchmarked peak ingestion rate of 7.8M rows/sec (500k rows ingested in 0.064s) using ClickHouse Native Format.",
+            "Window Function Optimization: Eliminated legacy neighbor() function calls in favor of ANSI SQL window functions (any(timestamp) OVER (PARTITION BY deviceid ORDER BY timestamp ROWS BETWEEN 1 PRECEDING AND 1 PRECEDING)) on ClickHouse 25+."
+          ]
+        },
+        "forensic_energy_standards": {
+          "title": "Mandatory Forensic Energy Calculation Standards",
+          "core_rule": "NEVER calculate electrical energy consumption using SUM(active_power * dt) trapezoidal integration.",
+          "mathematical_formula": "consumption_kwh = MAX(total_active_energy) - MIN(total_active_energy)",
+          "technical_justification": "Trapezoidal power integration under-reports real-world consumption by 20% to 40% due to packet transmission intervals, network jitter, and dynamic load spikes. Hardware energy registers (total_active_energy) are physically metered, tamper-proof, and monotonically increasing.",
+          "five_core_forensic_kpis": [
+            {
+              "kpi": "Active Energy (total_active_energy)",
+              "unit": "kWh",
+              "forensic_role": "Calculated strictly via MAX - MIN over target window to determine actual billing consumption."
+            },
+            {
+              "kpi": "Line-to-Neutral Voltage (voltage_l_n)",
+              "unit": "Volts (V)",
+              "forensic_role": "Identifies voltage sags (<215V vs 235V nominal) and grid over-voltage events that stress inductive motor loads."
+            },
+            {
+              "kpi": "Current Draw (current)",
+              "unit": "Amperes (A)",
+              "forensic_role": "Monitors phase loading; triggers automated high-current alarms when threshold exceeds 15A."
+            },
+            {
+              "kpi": "Grid Frequency (frequency)",
+              "unit": "Hertz (Hz)",
+              "forensic_role": "Audits national grid stability (nominal 50.0 Hz); flags thermal generator trips during deviations."
+            },
+            {
+              "kpi": "Power Factor (power_factor)",
+              "unit": "Ratio (0.00 – 1.00)",
+              "forensic_role": "Measures electrical phase displacement; diagnoses capacitor bank failures when PF dips below 0.80."
+            }
+          ]
+        },
+        "industrial_protocols_fieldbus": {
+          "title": "Industrial Protocols & Fieldbus Integration",
+          "supported_protocols": [
+            {
+              "protocol": "Modbus RTU / Modbus TCP",
+              "physical_layer": "RS-485 2-Wire Half-Duplex / Ethernet TCP:502",
+              "use_case": "Interfacing electrical smart energy meters (Eastron SDM630/120), chiller plant VFDs, and central cooling tower sensors."
+            },
+            {
+              "protocol": "BACnet IP / BACnet MS/TP",
+              "physical_layer": "Ethernet UDP:47808 / EIA-485 Master-Slave/Token-Passing",
+              "use_case": "Building Management System (BMS) integration, commercial office VRF indoor units, and primary AHU dampers."
+            },
+            {
+              "protocol": "LoRaWAN (Long Range WAN)",
+              "physical_layer": "Sub-GHz RF (868 MHz Europe / 915 MHz US / 865-867 MHz India)",
+              "use_case": "Long-range wireless transmission from rural 11kV substation feeders and steel tower gateways to cloud receivers."
+            },
+            {
+              "protocol": "MQTT 5.0 / Sparkplug B",
+              "physical_layer": "TCP/IP with TLS Encryption (Ports 1883 / 8883)",
+              "use_case": "Standardized lightweight telemetry payload streaming with stateful birth/death certificates."
+            },
+            {
+              "protocol": "BLE 5.0 (Bluetooth Low Energy)",
+              "physical_layer": "2.4 GHz ISM Band",
+              "use_case": "Localized indoor environmental beaconing, technician configuration diagnostics, and asset tracking."
+            }
+          ]
+        },
+        "messaging_backbone_emqx": {
+          "title": "Enterprise MQTT Messaging Backbone (EMQX 6.2.1)",
+          "deployment": "EMQX Enterprise 6.2.1 container on private bare-metal with persistent Mnesia cluster state and multi-protocol listeners.",
+          "direct_rule_engine": [
+            "Direct ClickHouse Connector: Engineered direct rule engine SQL (MQTT-To-Clickhouse) listening on topic a site energy topic and streaming directly to ClickHouse via high-speed native sockets, eliminating Node-RED processing overhead.",
+            "Zero Data-Loss Migration: Executed hot upgrade from EMQX 5.9.0 to 6.2.1 with full Mnesia volume preservation, maintaining uninterrupted client sessions across all gateways.",
+            "Granular Multi-Tenant RBAC: Configured client authentication and ACLs with per-role identities for hardware gateways, decoding engines, and ESP32 sensors."
+          ]
+        },
+        "case_study_fmcg_cms": {
+          "title": "Case Study: FMCG Factory Condition Monitoring Solution (CMS)",
+          "client": "Fortune 500 Fast-Moving Consumer Goods (FMCG) Manufacturing Client",
+          "objective": "Build a real-time condition monitoring solution leveraging edge computing on Azure IoT Edge to predict and prevent critical shop-floor machine breakdowns.",
+          "role": "Lead Architect & Technical Project Lead",
+          "solution_architecture": [
+            "Designed end-to-end data flow: shop-floor vibration, motor temperature, and current sensors connected to industrial gateways running Azure IoT Edge.",
+            "Deployed nested edge runtime containers processing high-frequency sensor streams locally and filtering noise before cloud transmission.",
+            "Configured automated anomaly detection algorithms triggering real-time maintenance alerts to line operators within 2 seconds of threshold breaches.",
+            "Integrated cloud dashboards in Azure DevOps and Azure IoT Hub for executive OEE (Overall Equipment Effectiveness) reporting."
+          ],
+          "outcome": "Reduced unplanned machine downtime by 38%, eliminated catastrophic bearing failures across packaging lines, and achieved 100% on-time project delivery."
+        },
+        "custom_iot_gateway_design": {
+          "title": "Custom Multi-Protocol Industrial IoT Gateway Design",
+          "hardware_architecture": "ESP32 dual-core Xtensa LX6 microcontroller / ARM Linux SoM with isolated RS-485 transceiver, SX1262 LoRa module, SIM7600 4G LTE modem, and hardware watchdog.",
+          "firmware_engineering": [
+            "Dual-Language Firmware: Written in modular C++ (FreeRTOS) and Python 3 with automated exception handling and memory leak guards.",
+            "Offline Resilience: Integrated 32MB onboard SPI Flash circular buffer storing up to 30 days of offline telemetry during grid or cellular outages.",
+            "Auto-Reconnect & State Recovery: Non-blocking state machine maintaining persistent TLS connections to EMQX, AWS IoT Core, Azure IoT Hub, and IBM Watson IoT."
+          ]
+        }
+      }
+    },
+    "tab_5_industrial_digital_twins": {
+      "tab_id": "tab-5-industrial-digital-twins",
+      "tab_name": "Industrial Digital Twins",
+      "badge": "Physics Simulation & SCADA",
+      "overview": "Operating 9 production-grade, physics-informed digital twins combining dynamic simulation with physical ClickHouse hardware telemetry.",
+      "twins_inventory": [
+        {
+          "id": "twin-metro-homes",
+          "name": "Metro Homes Distribution Microgrid",
+          "route": "/metro-homes",
+          "scale": "300 residential households across 20 city blocks",
+          "grid_topology": "11 kV Substation (SS-1) feeding 3 primary feeders (F1, F2, F3) and 10 distribution transformers (DT-01 to DT-10, 100 kVA each)",
+          "physics_models": "Dynamic non-homogeneous Poisson appliance distribution modeling geysers, AC thermal duty cycles, EV charging curves, and rooftop solar PV generation.",
+          "live_hardware_bindings": [
+            {
+              "label": "LIVE-1 (Industrial Feeder Primary Meter)"
+            },
+            {
+              "label": "LIVE-2 (Substation Telemetry Node B)"
+            },
+            {
+              "label": "LIVE-3 (Commercial Complex Meter C)"
+            },
+            {
+              "label": "OUT (Outdoor Ambient Sensor)"
+            },
+            {
+              "label": "IN (Indoor Environmental Sensor)"
+            }
+          ],
+          "utility_kpis": [
+            "SAIFI (System Average Interruption Frequency Index)",
+            "SAIDI (System Average Interruption Duration Index)",
+            "CAIDI",
+            "Voltage-in-band %",
+            "Net Grid Load Surplus (-82.6 kW)"
+          ],
+          "interactive_controls": "Fault injection on feeder trunks and Ring Main Unit (RMU) tie-point switching (TS-1, TS-2) for automated loop back-feeding."
+        },
+        {
+          "id": "twin-data-centre",
+          "name": "AI Factory & High-Density Data Center",
+          "route": "/data-centre",
+          "scale": "50 MW high-density computing facility housing 360 server racks (40 kW to 100 kW per rack for NVIDIA H100/B200 clusters)",
+          "cooling_architecture": "Direct-to-chip liquid cooling loops paired with CRAH perimeter air units and external dry coolers.",
+          "live_kpis": [
+            {
+              "kpi": "Power Usage Effectiveness (PUE)",
+              "target": "1.12 – 1.25",
+              "current_sim": "1.18"
+            },
+            {
+              "kpi": "Cooling Loop Delta-T",
+              "value": "12.4 °C (Supply 32°C / Return 44.4°C)"
+            },
+            {
+              "kpi": "Facility Load",
+              "value": "42.8 MW Compute / 7.7 MW Thermal Rejection"
+            }
+          ],
+          "interactive_controls": "Dry cooler staging, secondary plate heat exchanger bypass modulation, and emergency thermal throttling simulation."
+        },
+        {
+          "id": "twin-cold-store",
+          "name": "Industrial Cold Storage Facility",
+          "route": "/cold-store",
+          "scale": "4,940 Metric Ton (MT) multi-chamber industrial ammonia (NH3) refrigeration facility",
+          "thermodynamic_models": "Enthalpy calculation across multi-stage screw and reciprocating compressors, evaporator thermal inertia, and air infiltration during door openings.",
+          "live_kpis": [
+            {
+              "kpi": "Specific Power Consumption",
+              "metric": "kW/TR (Kilowatts per Ton of Refrigeration)",
+              "benchmark": "0.82 kW/TR"
+            },
+            {
+              "kpi": "Chamber Holding Temp",
+              "target": "-22.0 °C",
+              "variance": "±0.5 °C"
+            },
+            {
+              "kpi": "Thermal Pull-Down Rate",
+              "rate": "1.8 °C/hr under full product loading"
+            }
+          ],
+          "interactive_controls": "Compressor sequencing, hot-gas defrost scheduling, and variable condenser fan speed optimization."
+        },
+        {
+          "id": "twin-village",
+          "name": "Smart Village Feeder Microgrid",
+          "route": "/village",
+          "scale": "Rural electrification grid covering 120 distributed agricultural and residential consumer nodes",
+          "infrastructure": "12-meter steel LoRaWAN gateway tower receiving uplinks from pole-mounted meters, 11/0.415 kV distribution transformers.",
+          "live_kpis": [
+            "Phase Imbalance % (R-Y-B phases)",
+            "Neutral Current Displacement",
+            "Technical Line Losses (I²R)",
+            "Transformer Core Temp"
+          ],
+          "interactive_controls": "Phase load reallocation simulation and automated feeder trip on sustained phase imbalance (>15%)."
+        },
+        {
+          "id": "twin-substation",
+          "name": "33/11 kV Primary Distribution Substation",
+          "route": "/substation",
+          "scale": "Dual-transformer 2 × 10 MVA primary distribution substation feeding municipal districts",
+          "switchgear_topology": "Dual busbar with bus-coupler, SF6 gas circuit breakers, vacuum interrupters, and automated On-Load Tap Changers (OLTC).",
+          "live_kpis": [
+            "Busbar Voltage (33 kV / 11 kV)",
+            "MVA Loading per Transformer",
+            "OLTC Tap Position (1-17)",
+            "SF6 Pressure (bar)"
+          ],
+          "interactive_controls": "Bus-coupler closure, feeder breaker trip/close commands, and automatic voltage regulation (AVR) tap stepping."
+        },
+        {
+          "id": "twin-office-vrf",
+          "name": "Commercial Office Tower VRF",
+          "route": "/office-vrf",
+          "scale": "10-floor corporate office tower featuring 359 indoor VRF fan coil units and 20 rooftop outdoor condensing units",
+          "zoning_and_control": "Independent floor zoning, occupant presence detection, and variable refrigerant flow modulation.",
+          "live_kpis": [
+            "BEE Energy Index (kWh/m²/year)",
+            "Average Indoor Temperature (23.5 °C)",
+            "VRF Compressor Inverter Frequency (Hz)",
+            "Coefficient of Performance (COP)"
+          ],
+          "interactive_controls": "Floor-by-floor setback scheduling, free-cooling economizer mode, and peak-demand limiters."
+        },
+        {
+          "id": "twin-chiller",
+          "name": "Central Chiller Plant",
+          "route": "/chiller",
+          "scale": "3 × 800 TR water-cooled centrifugal chillers with primary-secondary pumping loops and cooling towers",
+          "thermodynamics": "Real-time lift calculation, condenser water approach temperature, and variable frequency drive (VFD) pumping curves.",
+          "live_kpis": [
+            {
+              "kpi": "Plant Efficiency",
+              "value": "0.58 kW/TR"
+            },
+            {
+              "kpi": "Chiller COP",
+              "value": "6.06"
+            },
+            {
+              "kpi": "Cooling Tower Approach",
+              "value": "2.8 °C"
+            }
+          ],
+          "interactive_controls": "Lead/lag chiller staging, chilled water supply temp reset (6.5°C to 8.5°C), and condenser pump sequencing."
+        },
+        {
+          "id": "twin-vrf",
+          "name": "Floor Zone Architectural VRF",
+          "route": "/vrf",
+          "scale": "Single-floor detailed CAD architectural layout with room-level thermal load zones",
+          "visualization": "Isometric vector representation of conference rooms, open workstations, and server closets with dynamic thermal heatmaps.",
+          "live_kpis": [
+            "Zone Airflow CFM",
+            "Room Temp vs Setpoint",
+            "Electronic Expansion Valve (EEV) Opening %",
+            "Refrigerant Evaporating Temp"
+          ],
+          "interactive_controls": "Individual room setpoint adjustments and VAV damper throttling."
+        },
+        {
+          "id": "twin-grid",
+          "name": "Microgrid Islanded Power",
+          "route": "/grid",
+          "scale": "Campus hybrid microgrid: 1.2 MW rooftop solar PV, 2.5 MWh Battery Energy Storage (BESS), 1.5 MVA diesel generator",
+          "control_systems": "High-speed Automatic Transfer Switch (ATS), dynamic solar curtailment, and BESS frequency regulation.",
+          "live_kpis": [
+            "State of Charge (SoC %)",
+            "Microgrid Grid-Tie Frequency (50.0 Hz)",
+            "Diesel Fuel Flow Rate (L/hr)",
+            "Solar Generation kW"
+          ],
+          "interactive_controls": "Seamless islanding trigger (disconnect from utility grid) and black-start sequence simulation."
+        }
+      ],
+      "tech_stack_highlights": [
+        "Next.js 14+ Static Export: Zero-latency client-side UI rendering with zero Node.js server overhead.",
+        "Dynamic SVG & WebGL: Hardware-accelerated isometric rendering with dynamic CSS animations for real-time equipment state.",
+        "Server-Sent Events (SSE): Push-based telemetry streaming directly into the DOM without client-side polling latency.",
+        "ClickHouse Direct Polling: Background runtime querying ClickHouse every 15s to inject physical meter data into the simulation matrix."
+      ]
+    },
+    "tab_6_career_timeline": {
+      "tab_id": "tab-6-career-timeline",
+      "tab_name": "Career Timeline & History",
+      "badge": "Track Record & Roles",
+      "overview": "Over a decade of progressive systems engineering leadership across Fortune 500 consultancies and high-velocity technology startups.",
+      "timeline_roles": [
+        {
+          "company": "Brick AI Inc.",
+          "location": "United States (Remote Operations)",
+          "role": "Infrastructure Lead",
+          "period": "02/2025 – Present",
+          "tenure": "Active",
+          "core_responsibilities": [
+            "Lead cloud and on-premise infrastructure architecture and operations, keeping environments secure, scalable and compliant with enterprise standards.",
+            "Manage the edge device fleet across customer sites: gateway provisioning, remote monitoring, updates and incident response.",
+            "Run IoT and IIoT connectivity, integrating building and industrial equipment over Modbus RTU/TCP and BACnet IP into reliable telemetry pipelines.",
+            "Own infrastructure security: network segmentation, secure remote access, identity and access control, and patch management.",
+            "Manage cloud resources, container-based deployments and day-to-day infrastructure operations across edge and cloud environments.",
+            "Coordinate site installation teams so edge hardware is deployed, commissioned and brought online on schedule."
+          ],
+          "key_technologies": [
+            "Linux",
+            "Docker",
+            "Proxmox VE",
+            "Modbus",
+            "BACnet",
+            "ClickHouse",
+            "Python",
+            "Cloud Security"
+          ]
+        },
+        {
+          "company": "Ideaxa Solutions",
+          "location": "New Delhi, India",
+          "role": "Lead Solution Architect",
+          "period": "04/2023 – 01/2025",
+          "tenure": "1 yr 10 mos",
+          "core_responsibilities": [
+            "Delivered complex enterprise IT architectures by leading cross-functional engineering teams and adopting cutting-edge technologies.",
+            "Achieved 100% on-time project delivery by establishing rigorous milestone tracking, sprint cadence, and engineering reviews.",
+            "Aligned emerging technology initiatives directly with client business objectives, presenting ROI estimations to C-suite stakeholders.",
+            "Ensured seamless system integration across legacy on-premise infrastructure, cloud platforms, and edge IoT devices.",
+            "Mentored junior and mid-level solutions architects to elevate architectural rigor, documentation quality, and security awareness.",
+            "Evaluated emerging cloud, AI, and edge technologies for technical feasibility and long-term economic viability."
+          ],
+          "key_technologies": [
+            "AWS",
+            "Azure",
+            "Terraform",
+            "Solution Architecture",
+            "Enterprise Integration",
+            "Microservices"
+          ]
+        },
+        {
+          "company": "Ernst & Young LLP (EY)",
+          "location": "Noida, National Capital Region (NCR), India",
+          "role": "Senior Technology Consultant",
+          "period": "04/2022 – 03/2023",
+          "tenure": "1 yr",
+          "core_responsibilities": [
+            "Designed enterprise cloud architectures on Microsoft Azure and led engineering squads to meet demanding delivery timelines.",
+            "Architected hybrid cloud enterprise solutions featuring real-time data processing using edge computing and localized filtering.",
+            "Modernized client IoT ecosystems by implementing Industry 4.0 standards and managing Azure IoT Edge runtime frameworks.",
+            "Spearheaded edge-to-cloud integration across enterprise IIoT projects utilizing Azure IoT Hub, Azure Stream Analytics, and Azure DevOps.",
+            "Integrated multi-cloud edge services including Azure IoT Edge, AWS Greengrass, and Bosch IoT Edge to enhance interoperability.",
+            "Facilitated enterprise IT transformation programs, prioritizing architectural epics and managing high-severity incident resolution."
+          ],
+          "key_technologies": [
+            "Microsoft Azure",
+            "Azure IoT Edge",
+            "AWS Greengrass",
+            "Azure DevOps",
+            "SQL Migration",
+            "Hybrid Cloud"
+          ]
+        },
+        {
+          "company": "Tata Consultancy Services (TCS)",
+          "location": "Bangalore, Karnataka, India",
+          "role": "IT Analyst",
+          "period": "07/2021 – 11/2021",
+          "tenure": "5 mos",
+          "core_responsibilities": [
+            "Developed edge computing architectures and runtime modules utilizing Azure Cloud and Azure IoT Hub.",
+            "Created, audited, and maintained Azure security benchmarks and cloud governance best practices across enterprise tenants.",
+            "Provisioned and managed virtual machines and containerized workloads through Azure Kubernetes Services (AKS).",
+            "Designed and developed analytical data structures, conducting extensive data modeling, performance profiling, and integration testing.",
+            "Collaborated on an enterprise life-sciences project to enhance real-time monitoring and control of research laboratory instruments via nested edge devices.",
+            "Formulated ROI models and executive technical presentations to support business modernization planning."
+          ],
+          "key_technologies": [
+            "Azure Kubernetes Service (AKS)",
+            "Azure IoT Hub",
+            "Nested Edge",
+            "Docker",
+            "Data Modeling"
+          ]
+        },
+        {
+          "company": "Ideaxa Engineering and Co. PVT LTD",
+          "location": "Gurugram, Haryana, India",
+          "role": "Lead Consultant",
+          "period": "02/2019 – 06/2021",
+          "tenure": "2 yrs 5 mos",
+          "core_responsibilities": [
+            "Managed large-scale installation, upgrade, and deployment projects, directing on-site network and systems engineers.",
+            "Administered AWS cloud infrastructure supporting high-concurrency IoT applications and telemetry dispatch.",
+            "Collaborated with Azure IoT services to implement resilient hybrid cloud solutions over multi-month deployment cycles.",
+            "Engineered wireless communication solutions utilizing Long Range (LoRa) and Bluetooth Low Energy (BLE) technologies.",
+            "Authored and maintained industrial IoT gateway firmware in C++ and Python for enhanced reliability and security.",
+            "Refactored legacy codebases to modern microservices standards, significantly reducing operating costs and maintenance overhead."
+          ],
+          "key_technologies": [
+            "AWS",
+            "LoRa / LoRaWAN",
+            "BLE",
+            "IoT Gateway Firmware",
+            "Python",
+            "C++",
+            "Linux Systems"
+          ]
+        },
+        {
+          "company": "Shunya Technologies PVT LTD",
+          "location": "New Delhi, India",
+          "role": "IoT Engineer",
+          "period": "08/2015 – 01/2019",
+          "tenure": "3 yrs 6 mos",
+          "core_responsibilities": [
+            "Assembled electronic prototypes and PCB systems according to schematic specifications using precision hand tools and test equipment.",
+            "Developed embedded firmware for Arduino, Raspberry Pi, ESP32, and ESP8266 microcontrollers.",
+            "Engineered industrial gateway firmware in C++ and Python, implementing local logging, SPI/I2C communication, and network failover.",
+            "Collaborated with product engineers on hardware diagnostics, bench testing, and rapid defect resolution.",
+            "Conducted rigorous acceptance testing and electrical measurements on electronic assemblies to verify regulatory compliance.",
+            "Participated in the early development of long-range wireless sensor nodes and LoRaWAN communication modules."
+          ],
+          "key_technologies": [
+            "ESP32",
+            "ESP8266",
+            "Raspberry Pi",
+            "C++ Firmware",
+            "LoRaWAN",
+            "Hardware Assembly",
+            "FreeRTOS"
+          ]
+        }
+      ],
+      "notable_standalone_projects": [
+        {
+          "project_name": "Condition Monitoring Solution (CMS) for FMCG Manufacturing",
+          "objective": "Real-time breakdown prediction and condition monitoring for FMCG factory shop-floor machinery.",
+          "architecture": "Azure IoT Edge nested modules deployed on shop-floor gateways, streaming vibration and current metrics to Azure IoT Hub.",
+          "role": "Lead Solutions Architect end-to-end; managed delivery timeline and client engineering integration."
+        },
+        {
+          "project_name": "Industrial IoT & IIoT Smart Gateway Platform",
+          "objective": "Design and production implementation of a universal IoT gateway connecting industrial and consumer sensors to cloud brokers.",
+          "architecture": "Hardware-agnostic gateway supporting WiFi, GSM/4G, LoRa, and RS485 Modbus, written in Python 3 with auto-reconnect and offline flash buffering.",
+          "supported_clouds": [
+            "AWS IoT Core",
+            "Azure IoT Hub",
+            "IBM Watson IoT",
+            "EMQX Private Broker"
+          ]
+        },
+        {
+          "project_name": "1TB Enterprise Microsoft SQL Server Cloud Migration",
+          "objective": "Zero-downtime migration of a 1TB on-premise datacenter SQL Server database to Azure SQL Managed Instances.",
+          "architecture": "Azure Blob Storage backup staging pipeline with compressed native differential backups and automated cutover verification.",
+          "role": "Lead Migration Architect designing process architecture, risk mitigation strategy, and client advisory."
+        },
+        {
+          "project_name": "Nested Edge Laboratory Equipment Monitoring POC",
+          "objective": "Hierarchical monitoring and telemetry capture for life-sciences research laboratory equipment.",
+          "architecture": "Azure IoT Edge nested runtime hierarchy allowing isolated subnet lab instruments to route telemetry through security boundaries."
+        }
+      ]
+    },
+    "tab_7_commercials_advisory_rates": {
+      "tab_id": "tab-7-commercials-advisory-rates",
+      "tab_name": "Commercials & Advisory Rates",
+      "badge": "Pricing & Retainers",
+      "overview": "Transparent fee structures for fractional leadership, hands-on enterprise architecture sprints, and turnkey platform delivery.",
+      "fee_structure": {
+        "hourly_rates": {
+          "standard_advisory": "$100 – $150 / hr (USD)",
+          "target_median": "$125 / hr",
+          "high_complexity_or_urgent": "$150 / hr",
+          "currency": "USD",
+          "billing_unit": "Hourly / Billed bi-weekly with detailed time tracking"
+        },
+        "monthly_retainers": [
+          {
+            "tier_name": "Tier 1: Strategic Advisory & Fractional CTO",
+            "monthly_rate": "$10,000 / month",
+            "hours_commitment": "15 – 20 hours / week",
+            "scope_of_work": [
+              "High-level systems architecture design and infrastructure cost audits.",
+              "Technology stack evaluation (cloud vs. bare metal, LLM provider selection).",
+              "Weekly architecture reviews and engineering team mentoring.",
+              "Direct C-suite technical guidance and roadmap planning."
+            ],
+            "ideal_for": "Series A-B startups, mid-market enterprises modernizing legacy stacks, or technical founders needing senior oversight."
+          },
+          {
+            "tier_name": "Tier 2: Dedicated Hands-On Architecture & Implementation",
+            "monthly_rate": "$15,000 – $18,000 / month",
+            "hours_commitment": "30 – 40 hours / week (Near Full-Time Leadership)",
+            "scope_of_work": [
+              "Direct hands-on engineering, repository code contributions, and pipeline automation.",
+              "Deploying and managing bare-metal GPU clusters, Proxmox hypervisors, and ClickHouse data lakes.",
+              "Building private LLM gateways, FastMCP servers, and autonomous multi-agent pipelines.",
+              "Mission-critical production incident response with SLA-backed availability."
+            ],
+            "ideal_for": "Enterprises executing major platform shifts, cloud-tax elimination programs, or industrial IoT deployments."
+          }
+        ],
+        "fixed_scope_sprints": [
+          {
+            "sprint_name": "Sprint 1: Zero-Cloud-Tax PaaS & Bare-Metal Setup",
+            "price_range": "$25,000 – $35,000",
+            "turnaround": "2 – 4 weeks delivery",
+            "deliverables": [
+              "Turnkey self-hosted PaaS platform deployed on private hardware.",
+              "Automated AST runtime detection (.NET 8, Python FastAPI/Flask, Node.js, Next.js).",
+              "Proxmox VE 8+ hypervisor configuration with unprivileged LXC containers and Docker nesting.",
+              "NetBird zero-trust mesh networking with automated Let's Encrypt TLS ingress.",
+              "Complete operational runbooks and administrative training."
+            ]
+          },
+          {
+            "sprint_name": "Sprint 2: High-Throughput ClickHouse & IIoT Ingestion Pipeline",
+            "price_range": "$30,000 – $45,000",
+            "turnaround": "3 – 6 weeks delivery",
+            "deliverables": [
+              "Production ClickHouse cluster deployment with optimized ReplacingMergeTree and AggregatingMergeTree schemas.",
+              "EMQX Enterprise MQTT broker setup with direct rule engine database connectors.",
+              "Modbus RTU/TCP, BACnet, and LoRaWAN fieldbus gateway integrations.",
+              "Mandatory MAX-MIN forensic energy delta calculation pipelines and anomaly detection.",
+              "Real-time analytical dashboards with sub-50ms query response times."
+            ]
+          },
+          {
+            "sprint_name": "Sprint 3: Physics-Informed Industrial Digital Twin Suite",
+            "price_range": "$40,000 – $60,000+",
+            "turnaround": "4 – 8 weeks delivery",
+            "deliverables": [
+              "Bespoke physics-informed simulation engine modeled after client physical equipment (HVAC, chiller plant, microgrid, cold store, or data center).",
+              "High-fidelity interactive 3D / SVG isometric dashboard built with Next.js 14+ static export.",
+              "Real-time live telemetry binding to physical hardware meters and sensors via Server-Sent Events (SSE).",
+              "Interactive fault injection and what-if scenario testing controls.",
+              "Containerized deployment shipped as a versioned Docker image with role-based access control."
+            ]
+          }
+        ]
+      },
+      "engagement_terms": {
+        "contractual_vehicles": "US Corp-to-Corp (C2C), US 1099 Independent Contractor, or International Technical Advisory Agreement.",
+        "ip_assignment": "100% full intellectual property transfer to client upon completion of milestones.",
+        "confidentiality": "Comprehensive mutual Non-Disclosure Agreement (NDA) with strict air-gapped data handling protocols.",
+        "payment_methods": "Wire Transfer (USD/EUR), ACH, Stripe Invoicing, or Corporate Escrow.",
+        "availability": "Immediate availability for fixed-scope sprints; 2 weeks onboarding window for ongoing advisory retainers."
+      }
+    },
+    "tab_8_interactive_terminal_tech_stack": {
+      "tab_id": "tab-8-interactive-terminal-tech-stack",
+      "tab_name": "Interactive Terminal & Tech Stack Matrix",
+      "badge": "Hands-On Verification & Matrix",
+      "overview": "Directly executable CLI commands, diagnostic scripts, and an exhaustive technical capability matrix verifying operational mastery across the entire engineering stack.",
+      "tech_stack_matrix": [
+        {
+          "category": "Cloud & Infrastructure",
+          "technology": "Amazon Web Services (AWS)",
+          "proficiency": "Expert",
+          "experience_years": 8,
+          "production_use_case": "VPCs, Transit Gateways, ECS Fargate, EKS, RDS, S3, IAM boundaries, Route 53, and CloudWatch."
+        },
+        {
+          "category": "Cloud & Infrastructure",
+          "technology": "Microsoft Azure",
+          "proficiency": "Expert",
+          "experience_years": 7,
+          "production_use_case": "Azure IoT Edge, Azure IoT Hub, AKS, Azure SQL Managed Instance, ExpressRoute, and Azure DevOps CI/CD."
+        },
+        {
+          "category": "Cloud & Infrastructure",
+          "technology": "Terraform / IaC",
+          "proficiency": "Expert",
+          "experience_years": 7,
+          "production_use_case": "Modular infrastructure automation for AWS, Azure, and local cloud emulators (Floci 2.1.0, LocalStack)."
+        },
+        {
+          "category": "Bare Metal & Hypervisors",
+          "technology": "Proxmox VE 8+",
+          "proficiency": "Expert",
+          "experience_years": 6,
+          "production_use_case": "Unprivileged LXC clustering, Docker-in-LXC nesting, KVM IOMMU GPU passthrough, and ZFS storage pools."
+        },
+        {
+          "category": "Bare Metal & Hypervisors",
+          "technology": "Linux Kernel & Systems Administration",
+          "proficiency": "Expert",
+          "experience_years": 10,
+          "production_use_case": "Debian/Ubuntu/Alpine systems tuning, systemd unit engineering, sysctl swap/memory optimization, and bash automation."
+        },
+        {
+          "category": "Bare Metal & Hypervisors",
+          "technology": "Docker & Docker Compose",
+          "proficiency": "Expert",
+          "experience_years": 9,
+          "production_use_case": "Multi-stage Alpine builds (<80MB), Docker socket sibling orchestration, container security, and live container fleets."
+        },
+        {
+          "category": "AI & LLMOps",
+          "technology": "LiteLLM Gateway",
+          "proficiency": "Expert",
+          "experience_years": 3,
+          "production_use_case": "Centralized multi-model proxy with PostgreSQL API key management, Redis rate limiting, and custom guardrails."
+        },
+        {
+          "category": "AI & LLMOps",
+          "technology": "Local Inference Runtimes (vLLM / Ollama / llama.cpp)",
+          "proficiency": "Expert",
+          "experience_years": 3,
+          "production_use_case": "High-throughput model serving across RTX 5060 Ti, RTX 3090 Ti, Apple M5 Pro, and RTX 2060 with GGUF IQ4/Q4 quant."
+        },
+        {
+          "category": "AI & LLMOps",
+          "technology": "Model Context Protocol (FastMCP)",
+          "proficiency": "Expert",
+          "experience_years": 2,
+          "production_use_case": "Authoring custom FastMCP 3.4.5 servers over SSE/stdio for ClickHouse, DuckDB, Postgres, and SQLite tool dispatch."
+        },
+        {
+          "category": "AI & LLMOps",
+          "technology": "Multi-Agent Systems & A2A Agency",
+          "proficiency": "Expert",
+          "experience_years": 3,
+          "production_use_case": "Hierarchical agent networks communicating via A2A protocols with role-gated personas and human-in-the-loop governance."
+        },
+        {
+          "category": "Big Data & Time Series",
+          "technology": "ClickHouse Time-Series DB",
+          "proficiency": "Expert",
+          "experience_years": 5,
+          "production_use_case": "High-throughput time-series data lakes (2M+ rows), ReplacingMergeTree, ClickHouse Keeper HA, sub-50ms query latencies."
+        },
+        {
+          "category": "Big Data & Time Series",
+          "technology": "DuckDB & Parquet Analytics",
+          "proficiency": "Advanced",
+          "experience_years": 4,
+          "production_use_case": "High-speed analytical inspection of Parquet telemetry dumps and offline appliance electrical signature extraction."
+        },
+        {
+          "category": "IoT & Embedded Hardware",
+          "technology": "Industrial Modbus & BACnet",
+          "proficiency": "Expert",
+          "experience_years": 8,
+          "production_use_case": "Interfacing HVAC chillers, VRF condensing units, BMS systems, and electrical energy meters over RS485 and Ethernet."
+        },
+        {
+          "category": "IoT & Embedded Hardware",
+          "technology": "LoRa / LoRaWAN",
+          "proficiency": "Expert",
+          "experience_years": 7,
+          "production_use_case": "Long-range wireless telemetry architecture from rural substation feeders and distribution poles to steel tower gateways."
+        },
+        {
+          "category": "IoT & Embedded Hardware",
+          "technology": "ESP32 & Microcontroller Firmware",
+          "proficiency": "Expert",
+          "experience_years": 10,
+          "production_use_case": "C++ and FreeRTOS embedded firmware, SPI/I2C sensor interfacing, offline flash circular buffers, and OTA updates."
+        },
+        {
+          "category": "Networking & Security",
+          "technology": "NetBird & WireGuard Mesh",
+          "proficiency": "Expert",
+          "experience_years": 4,
+          "production_use_case": "Encrypted peer-to-peer overlay networks across multi-site hybrid clouds with automated dynamic TLS reverse proxies."
+        },
+        {
+          "category": "Networking & Security",
+          "technology": "CrowdSec & Network Defense",
+          "proficiency": "Advanced",
+          "experience_years": 4,
+          "production_use_case": "Collaborative intrusion detection/prevention (IDS/IPS), GeoIP filtering, and TLS reverse proxy hardening."
+        },
+        {
+          "category": "Languages & Frameworks",
+          "technology": "Python (FastAPI / AsyncIO / Uvicorn)",
+          "proficiency": "Expert",
+          "experience_years": 9,
+          "production_use_case": "RESTful microservices, MCP server authoring, telemetry data pipelines, and AI agent execution frameworks."
+        },
+        {
+          "category": "Languages & Frameworks",
+          "technology": "Node.js & Next.js",
+          "proficiency": "Advanced",
+          "experience_years": 6,
+          "production_use_case": "Next.js 14+ static export, WebGL/SVG isometric digital twin frontends, and Server-Sent Events push pipelines."
+        },
+        {
+          "category": "Languages & Frameworks",
+          "technology": "C / C++ (Embedded Systems)",
+          "proficiency": "Expert",
+          "experience_years": 10,
+          "production_use_case": "Hard real-time microcontroller firmware, Modbus register decoding, LoRaWAN MAC layers, and hardware interrupt routines."
+        },
+        {
+          "category": "Databases & Storage",
+          "technology": "Microsoft SQL Server",
+          "proficiency": "Advanced",
+          "experience_years": 6,
+          "production_use_case": "Relational schema design, enterprise backup strategies, and 1TB database migrations to Azure Managed Instances."
+        },
+        {
+          "category": "Databases & Storage",
+          "technology": "PostgreSQL & Redis",
+          "proficiency": "Expert",
+          "experience_years": 7,
+          "production_use_case": "Transactional state storage for LiteLLM multi-tenancy, and Redis high-speed rate-limiting caches."
+        },
+        {
+          "category": "Databases & Storage",
+          "technology": "Qdrant Vector Database",
+          "proficiency": "Advanced",
+          "experience_years": 3,
+          "production_use_case": "Dense and hybrid vector search collections for enterprise RAG pipelines and autonomous agent memory."
+        }
+      ]
+    }
+  },
+  "compliance_matrix": [
+    {
+      "id": "soc-2-type-2",
+      "framework": "SOC 2 Type II",
+      "category": "Security & Cloud Governance",
+      "governing_body": "AICPA",
+      "status": "Fully Implemented",
+      "compliance_level": "Production Enterprise",
+      "summary": "Trust Services Criteria covering Security, Availability, Confidentiality, and Processing Integrity across AWS/Azure and bare-metal nodes.",
+      "controls": [
+        "Zero-trust WireGuard mesh segmentation (NetBird) isolating production workloads",
+        "Immutable audit trails in ClickHouse with cryptographic timestamping",
+        "Role-based access control (RBAC) with MFA enforced across all landing zones",
+        "Automated vulnerability scanning and Continuous Configuration Drift detection via IaC"
+      ],
+      "architectural_evidence": "Multi-account AWS Organizations & Azure vWAN isolation with automated SCP guardrails and quarterly penetration tests."
+    },
+    {
+      "id": "iso-27001-2022",
+      "framework": "ISO/IEC 27001:2022",
+      "category": "Security & Cloud Governance",
+      "governing_body": "International Organization for Standardization",
+      "status": "Enterprise Baseline",
+      "compliance_level": "Standard Adherent",
+      "summary": "Information Security Management System (ISMS) governing cloud and sovereign bare-metal infrastructure assets.",
+      "controls": [
+        "Annex A controls: Information security policies, asset management, and access controls",
+        "Cryptographic key management with automated key rotation and HSM/KMS backends",
+        "Formal threat modeling (STRIDE) applied to all microservices and API gateways",
+        "Disaster Recovery (DR) runbooks with verified RTO < 15 min and RPO < 1 min"
+      ],
+      "architectural_evidence": "Documented ISMS architecture, automated Terraform state encryption, and multi-region backup pipelines."
+    },
+    {
+      "id": "hipaa-hitech",
+      "framework": "HIPAA / HITECH",
+      "category": "Data & Privacy",
+      "governing_body": "U.S. Department of Health & Human Services",
+      "status": "Fully Implemented",
+      "compliance_level": "Production Enterprise",
+      "summary": "Security, Privacy, and Breach Notification rules for Electronic Protected Health Information (ePHI) in cloud & IoT environments.",
+      "controls": [
+        "End-to-end AES-256 encryption at rest across all ZFS NVMe pools and S3 buckets",
+        "Mandatory TLS 1.3 in transit with strict mTLS between microservices",
+        "Business Associate Agreement (BAA) boundary isolation within dedicated VPCs",
+        "Automated ePHI de-identification and PII masking filters at ingestion layer"
+      ],
+      "architectural_evidence": "Architected hybrid life-sciences instrumentation telemetry for TCS enterprise clients with zero unencrypted data pathways."
+    },
+    {
+      "id": "gdpr-dpdp",
+      "framework": "GDPR & India DPDP Act 2023",
+      "category": "Data & Privacy",
+      "governing_body": "European Commission & Government of India",
+      "status": "Fully Implemented",
+      "compliance_level": "Sovereign Compliant",
+      "summary": "Data protection and sovereignty standards mandating purpose limitation, consent governance, and right to erasure.",
+      "controls": [
+        "Sovereign bare-metal data residency ensuring data never traverses unapproved jurisdictions",
+        "Automated PII scrubbing pipelines prior to analytical indexing or vector embedding",
+        "Cryptographic erasure primitives for deterministic user data deletion",
+        "Granular consent logging and audit trail retention policies"
+      ],
+      "architectural_evidence": "Private on-premises LLM inference (LiteLLM/Ollama) eliminating cloud API data leakage and sovereign ClickHouse data storage."
+    },
+    {
+      "id": "nist-sp-800-53",
+      "framework": "NIST SP 800-53 Rev. 5",
+      "category": "Security & Cloud Governance",
+      "governing_body": "NIST",
+      "status": "Enterprise Baseline",
+      "compliance_level": "High Rigor Baseline",
+      "summary": "Catalog of security and privacy controls for federal and enterprise information systems.",
+      "controls": [
+        "Access Control (AC) and Identification & Authentication (IA) via centralized IdP and WebAuthn",
+        "Audit and Accountability (AU) with centralized SIEM forwarding and tamper-proof storage",
+        "System and Communications Protection (SC) through mutual TLS and network micro-segmentation",
+        "System and Information Integrity (SI) with host-based IDS/IPS and CrowdSec threat intelligence"
+      ],
+      "architectural_evidence": "Baseline control mapping implemented across all Terraform modular landing zones and Proxmox unprivileged LXC containers."
+    },
+    {
+      "id": "pci-dss-v4",
+      "framework": "PCI-DSS v4.0",
+      "category": "Security & Cloud Governance",
+      "governing_body": "PCI Security Standards Council",
+      "status": "Audited & Implemented",
+      "compliance_level": "Level 1 Architecture",
+      "summary": "Technical and operational requirements protecting cardholder data environments (CDE) and financial transactions.",
+      "controls": [
+        "Complete network isolation of payment tokens using dedicated subnet boundaries",
+        "Strict zero-trust ingress filtering via Cloudflare / Azure Front Door WAF",
+        "Mandatory MFA for all administrative access and bastion jump-hosts",
+        "File Integrity Monitoring (FIM) across all production container hosts"
+      ],
+      "architectural_evidence": "Architected fintech payment gateway infrastructure with zero-downtime database migration and automated tokenization."
+    },
+    {
+      "id": "cis-benchmarks",
+      "framework": "CIS Benchmarks Level 1 & 2",
+      "category": "Cloud & Infrastructure",
+      "governing_body": "Center for Internet Security",
+      "status": "Production Hardened",
+      "compliance_level": "Automated Enforced",
+      "summary": "Prescriptive hardening baselines for Linux kernels, Kubernetes (EKS/AKS), and cloud provider tenants.",
+      "controls": [
+        "Linux kernel hardening: disabled unnecessary file systems, restricted core dumps, tuned sysctl",
+        "Rootless container execution and unprivileged namespaces in LXC/Docker",
+        "Kubernetes CIS hardening: API server flags, NetworkPolicies, and Pod Security Standards (Restricted)",
+        "Automated CIS baseline auditing integrated into CI/CD deployment pipelines"
+      ],
+      "architectural_evidence": "Proxmox hypervisors and production Kubernetes clusters audited against CIS benchmarks with 98%+ compliance score."
+    },
+    {
+      "id": "iec-62443",
+      "framework": "IEC 62443-4-2 / ISA-99",
+      "category": "Industrial & SCADA",
+      "governing_body": "International Electrotechnical Commission",
+      "status": "Production Hardened",
+      "compliance_level": "Mission-Critical OT",
+      "summary": "Industrial automation and control systems (IACS) cybersecurity standard based on the Purdue Reference Model.",
+      "controls": [
+        "Purdue Model zoning: strict separation between Level 0/1 field sensors, Level 2/3 SCADA, and Level 4 enterprise IT",
+        "Air-gapped unidirectional gateways and Modbus/BACnet proxy isolating operational technology",
+        "Cryptographic device authentication for field LoRaWAN and Modbus RTU telemetry nodes",
+        "Fail-safe defaults and local offline telemetry buffering preventing packet loss during WAN partitions"
+      ],
+      "architectural_evidence": "Industrial telemetry networks and 9 digital twins operating across commercial chillers, VRF units, and electrical substations."
+    },
+    {
+      "id": "fedramp-high",
+      "framework": "FedRAMP High / Moderate",
+      "category": "Cloud & Infrastructure",
+      "governing_body": "FedRAMP PMO",
+      "status": "Architectural Ready",
+      "compliance_level": "Federal Standard Ready",
+      "summary": "Federal Risk and Authorization Management Program security baselines for cloud computing environments.",
+      "controls": [
+        "FIPS 140-3 validated encryption algorithms enforced across all storage and transport layers",
+        "Dedicated GovCloud / isolated tenant architectures preventing noisy-neighbor risks",
+        "Continuous monitoring and automated boundary telemetry dispatch",
+        "Strict incident containment runbooks with automated quarantine triggers"
+      ],
+      "architectural_evidence": "Landing zone Terraform modules with FedRAMP High compliant parameter profiles and encryption policies."
+    },
+    {
+      "id": "iso-9001-2015",
+      "framework": "ISO 9001:2015",
+      "category": "Operational Quality",
+      "governing_body": "ISO",
+      "status": "Operational Standard",
+      "compliance_level": "Continuous Delivery",
+      "summary": "Quality Management Systems (QMS) ensuring engineering repeatability, peer-reviewed architecture, and verified delivery SLAs.",
+      "controls": [
+        "Strict architectural review boards (ARB) for all production infrastructure modifications",
+        "Automated CI/CD validation gates: linting, unit testing, SAST, and integration benchmarks",
+        "100% on-time project delivery track record through milestone tracking and sprint cadence",
+        "Post-incident post-mortems with blameless root-cause analysis and preventive action items"
+      ],
+      "architectural_evidence": "Maintained 100% on-time delivery across multi-year consulting engagements."
+    },
+    {
+      "id": "nist-csf-2",
+      "framework": "NIST CSF 2.0",
+      "category": "Security & Cloud Governance",
+      "governing_body": "NIST",
+      "status": "Enterprise Baseline",
+      "compliance_level": "Comprehensive Governance",
+      "summary": "Cybersecurity Framework covering Govern, Identify, Protect, Detect, Respond, and Recover core functions.",
+      "controls": [
+        "Govern: Clear organizational risk tolerance policies and infrastructure ownership matrices",
+        "Identify & Protect: Complete asset discovery and zero-trust boundary segmentation",
+        "Detect: Real-time telemetry monitoring with sub-50ms ClickHouse anomaly queries",
+        "Respond & Recover: Automated failover orchestrations with multi-node replication and ZFS snapshots"
+      ],
+      "architectural_evidence": "Comprehensive cybersecurity posture implemented across bare-metal data-lake nodes, Proxmox hypervisors, and cloud VPCs."
+    },
+    {
+      "id": "owasp-top-10-llm",
+      "framework": "OWASP Top 10 & LLM Top 10",
+      "category": "AI & Application Security",
+      "governing_body": "OWASP Foundation",
+      "status": "Production Hardened",
+      "compliance_level": "Autonomous AI Defense",
+      "summary": "Defensive controls for web application security and Large Language Model vulnerabilities (prompt injection, tool abuse, data leakage).",
+      "controls": [
+        "Prompt injection sanitization and adversarial intent classification at the API proxy layer",
+        "FastMCP (Model Context Protocol) sandboxed execution with strict JSON-RPC schema verification",
+        "Model denial-of-service prevention through strict token governance and request rate limiting",
+        "Zero sensitive data retention in LLM context windows through localized RAG vector filtering"
+      ],
+      "architectural_evidence": "LiteLLM sovereign proxy and FastMCP tool bus governing all agentic LLM executions with complete input/output sandboxing."
+    }
+  ],
+  "architecture_showcase": {
+    "topologies": [
+      {
+        "id": "multi-cloud-transit-hub",
+        "title": "Enterprise Multi-Cloud & Zero-Trust Transit Hub",
+        "domain": "Multi-Cloud & Zero-Trust",
+        "badge": "HYBRID TRANSIT TOPOLOGY",
+        "description": "Hub-Spoke architecture interconnecting AWS Control Tower, Azure vWAN, and on-premises hypervisors via encrypted NetBird WireGuard mesh with zero public ingress.",
+        "specs": {
+          "latency": "< 15ms Intra-Region",
+          "encryption": "ChaCha20-Poly1305 / WireGuard P2P",
+          "availability": "99.99% Multi-Region HA",
+          "ingress": "Zero Direct Public Ingress (mTLS Only)"
+        },
+        "subsystems": [
+          {
+            "name": "Hub Transit Core",
+            "details": "AWS Transit Gateway / Azure vWAN route tables with automated BGP peering"
+          },
+          {
+            "name": "Spoke A: Microservices",
+            "details": "EKS/AKS clusters with Cilium eBPF CNI and mutual TLS"
+          },
+          {
+            "name": "Spoke B: Sovereign AI",
+            "details": "Bare-metal GPU cluster running LiteLLM and vLLM local inference"
+          },
+          {
+            "name": "Spoke C: Telemetry Lake",
+            "details": "ClickHouse analytical cluster with ZFS NVMe storage tiering"
+          },
+          {
+            "name": "Spoke D: Industrial Edge",
+            "details": "Purdue Level 2/3 gateways connecting Modbus RTU / BACnet IP"
+          }
+        ]
+      },
+      {
+        "id": "sovereign-ai-mcp-bus",
+        "title": "Sovereign AI Reasoning & FastMCP Tool Bus",
+        "domain": "Autonomous AI & LLMOps",
+        "badge": "COGNITIVE TOOL BUS",
+        "description": "High-density bare-metal AI infrastructure decoupling model reasoning from tool execution through the Model Context Protocol (FastMCP) with strict token budgets.",
+        "specs": {
+          "cost_reduction": "85% vs Cloud API Bills",
+          "context_window": "128k+ Tokens Sovereign",
+          "tool_latency": "< 40ms JSON-RPC Handshake",
+          "security": "OWASP LLM Top 10 Sandboxing"
+        },
+        "subsystems": [
+          {
+            "name": "LiteLLM Gateway",
+            "details": "Centralized multi-model routing across local GPUs and external frontier models"
+          },
+          {
+            "name": "FastMCP Tool Engine",
+            "details": "JSON-RPC bridge executing ClickHouse queries and system audits without shell escape"
+          },
+          {
+            "name": "Vector Memory Core",
+            "details": "Qdrant vector database with dense embeddings for deterministic RAG retrieval"
+          },
+          {
+            "name": "Token Governance",
+            "details": "Real-time token budgeting, rate limiting, and cost attribution per service"
+          }
+        ]
+      },
+      {
+        "id": "sub-50ms-telemetry-lakehouse",
+        "title": "Sub-50ms ClickHouse Industrial Telemetry Lakehouse",
+        "domain": "IIoT & Telemetry Forensics",
+        "badge": "TIME-SERIES LAKEHOUSE",
+        "description": "High-throughput time-series ingestion streaming from industrial LoRaWAN and Modbus sensors through EMQX into ClickHouse ReplacingMergeTree tables.",
+        "specs": {
+          "throughput": "50,000+ msgs/sec",
+          "p99_latency": "< 42ms Analytical Queries",
+          "compression": "10x Storage Efficiency (ZFS + DoubleDelta)",
+          "durability": "Active-Active Multi-Replica"
+        },
+        "subsystems": [
+          {
+            "name": "Protocol Broker",
+            "details": "EMQX Enterprise cluster handling MQTT 5.0, CoAP, and HTTP streaming"
+          },
+          {
+            "name": "Forensic Engine",
+            "details": "Deterministic MAX - MIN monotonic accumulator window calculations"
+          },
+          {
+            "name": "Analytical Store",
+            "details": "ClickHouse ReplacingMergeTree with automated time-partitioned rollups"
+          },
+          {
+            "name": "Anomaly Detector",
+            "details": "Sub-second classification of power outages vs voltage sags"
+          }
+        ]
+      },
+      {
+        "id": "physics-digital-twins",
+        "title": "Physics-Informed Digital Twins & SCADA Cockpit",
+        "domain": "Industrial Digital Twins",
+        "badge": "REAL-TIME SCADA TWIN",
+        "description": "9 production industrial digital twins executing continuous thermodynamic and electrical physics calculations bound to live telemetry.",
+        "specs": {
+          "twin_count": "9 Production Environments",
+          "physics_cycle": "15-Second Continuous Loop",
+          "standards": "ASHRAE Guideline 14 & ISO 50001",
+          "actuation": "Sub-Second Setpoint Optimization"
+        },
+        "subsystems": [
+          {
+            "name": "Chiller Plant Twin",
+            "details": "COP enthalpy modeling and condenser water optimization"
+          },
+          {
+            "name": "Commercial VRF Twin",
+            "details": "Multi-compressor load distribution across 359 zones"
+          },
+          {
+            "name": "Data Center Cooling",
+            "details": "50MW liquid-to-air cooling optimization with PUE tracking"
+          },
+          {
+            "name": "Substation & Microgrid",
+            "details": "33/11kV transformer thermal modeling and phase balance"
+          }
+        ]
+      }
+    ],
+    "case_studies": [
+      {
+        "id": "cloud-repatriation-case-study",
+        "title": "85% Cloud Cost Reduction via Bare-Metal Hybrid Migration",
+        "client_profile": "High-Growth AI & Analytics SaaS",
+        "challenge": "Client faced unsustainable 6-figure monthly cloud bills on managed databases (RDS, vector search) and LLM API tokens, with query latency exceeding 350ms.",
+        "solution": "Architected a hybrid bare-metal repatriation strategy. Migrated primary analytical storage to a self-hosted ClickHouse cluster and deployed private GPU nodes for local model inference, connected back to AWS via NetBird zero-trust WireGuard mesh.",
+        "outcome": "Reduced recurring cloud infrastructure spend by 85%, reduced query latency from 350ms to <45ms, and established 100% data sovereignty.",
+        "metrics": "85% Cost Savings · <45ms Latency · 0 Unencrypted Paths"
+      },
+      {
+        "id": "multi-cloud-landing-zone-case-study",
+        "title": "Zero-Trust Enterprise Multi-Account Cloud Migration",
+        "client_profile": "Regulated Financial Services Provider",
+        "challenge": "Legacy monolithic AWS infrastructure with shared credentials, lack of network micro-segmentation, and impending SOC 2 Type II audit deadlines.",
+        "solution": "Engineered modular Terraform landing zones with AWS Control Tower, SCP boundaries, Transit Gateway hub-spoke topology, and NetBird zero-trust access control.",
+        "outcome": "Achieved 100% automated infrastructure provisioning, passed SOC 2 Type II audit with zero findings on initial evaluation, and eliminated all public IP exposures.",
+        "metrics": "SOC 2 Pass · 100% Automated IaC · Zero Ingress Leaks"
+      },
+      {
+        "id": "iiot-telemetry-modernization-case-study",
+        "title": "Mission-Critical SCADA & Smart Grid Telemetry Modernization",
+        "client_profile": "Commercial Energy & Facility Operator",
+        "challenge": "Packet loss across remote industrial meters and erroneous power consumption metrics caused by trapezoidal integration rollover errors.",
+        "solution": "Deployed industrial LoRaWAN and Modbus RTU gateways running hardened C++/Python firmware with local failover buffering. Ingested raw telemetry into ClickHouse with deterministic MAX - MIN hardware register delta formulas.",
+        "outcome": "Eliminated accumulator rollover calculation errors, achieved 99.999% telemetry reliability, and unlocked real-time forensic detection of voltage sags.",
+        "metrics": "99.999% Reliability · Sub-50ms Forensics · 0 Rollover Skews"
+      }
+    ]
+  }
+}

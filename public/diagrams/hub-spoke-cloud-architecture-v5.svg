@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" style="background-color: #090D16; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+<style>
+path[stroke-dasharray]{animation:ia-flow 1.4s linear infinite}
+@keyframes ia-flow{to{stroke-dashoffset:-20}}
+.ia-pkt{filter:drop-shadow(0 0 4px currentColor)}
+@media (prefers-reduced-motion: reduce){path[stroke-dasharray]{animation:none}.ia-pkt{display:none}}
+</style>
+  <defs>
+    <!-- Background Grids & Patterns -->
+    <pattern id="darkGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.6" />
+    </pattern>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="hubGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="cyanGlowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="emeraldGlowLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="violetGlowLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <!-- Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glowEmerald" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glowViolet" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <marker id="arrowCyan" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#06B6D4" />
+    </marker>
+    <marker id="arrowEmerald" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#10B981" />
+    </marker>
+    <marker id="arrowViolet" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#8B5CF6" />
+    </marker>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="800" fill="#090D16" />
+  <rect width="1200" height="800" fill="url(#darkGrid)" />
+  <circle cx="600" cy="400" r="380" fill="url(#coreGlow)" />
+
+  <!-- Diagram Title Header -->
+  <g transform="translate(50, 40)">
+    <rect x="0" y="0" width="1100" height="54" rx="10" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="24" cy="27" r="6" fill="#06B6D4" filter="url(#glowCyan)" />
+    <text x="42" y="24" fill="#F8FAFC" font-size="16" font-weight="700" letter-spacing="0.5">MULTI-CLOUD HUB &amp; SPOKE SECURE ARCHITECTURE</text>
+    <text x="42" y="42" fill="#94A3B8" font-size="11" font-family="monospace">AZURE VIRTUAL WAN // AWS TRANSIT GATEWAY // ZERO-TRUST MESH // NETBIRD</text>
+    <g transform="translate(960, 16)">
+      <rect x="0" y="0" width="115" height="22" rx="11" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1" />
+      <circle cx="14" cy="11" r="3.5" fill="#10B981" />
+      <text x="26" y="15" fill="#10B981" font-size="10" font-family="monospace" font-weight="bold">ISOLATED TIER</text>
+    </g>
+  </g>
+
+  <!-- Spoke Connecting Lines (Behind nodes) -->
+  <g stroke-width="2" fill="none" opacity="0.75">
+    <!-- To Spoke 1 (Top-Left) -->
+    <path d="M 480 340 L 260 210" stroke="#06B6D4" stroke-dasharray="6 4" marker-end="url(#arrowCyan)" />
+<circle class="ia-pkt" r="5" fill="#06B6D4" color="#06B6D4" opacity="0.95"><animateMotion dur="2.6s" begin="0.00s" repeatCount="indefinite" path="M 480 340 L 260 210"/></circle>
+    <!-- To Spoke 2 (Top-Right) -->
+    <path d="M 720 340 L 940 210" stroke="#8B5CF6" stroke-dasharray="6 4" marker-end="url(#arrowViolet)" />
+<circle class="ia-pkt" r="5" fill="#8B5CF6" color="#8B5CF6" opacity="0.95"><animateMotion dur="2.6s" begin="0.45s" repeatCount="indefinite" path="M 720 340 L 940 210"/></circle>
+    <!-- To Spoke 3 (Bottom-Left) -->
+    <path d="M 480 460 L 260 590" stroke="#10B981" stroke-dasharray="6 4" marker-end="url(#arrowEmerald)" />
+<circle class="ia-pkt" r="5" fill="#10B981" color="#10B981" opacity="0.95"><animateMotion dur="2.6s" begin="0.90s" repeatCount="indefinite" path="M 480 460 L 260 590"/></circle>
+    <!-- To Spoke 4 (Bottom-Right) -->
+    <path d="M 720 460 L 940 590" stroke="#F59E0B" stroke-dasharray="6 4" />
+<circle class="ia-pkt" r="5" fill="#F59E0B" color="#F59E0B" opacity="0.95"><animateMotion dur="2.6s" begin="1.35s" repeatCount="indefinite" path="M 720 460 L 940 590"/></circle>
+  </g>
+
+  <!-- ==================== CENTRAL HUB ==================== -->
+  <g transform="translate(440, 260)">
+    <!-- Hub Boundary -->
+    <rect x="0" y="0" width="320" height="280" rx="18" fill="#0D1526" stroke="#06B6D4" stroke-width="2" filter="url(#glowCyan)" />
+    
+    <!-- Hub Header -->
+    <rect x="0" y="0" width="320" height="44" rx="18" fill="#1E293B" fill-opacity="0.6" />
+    <rect x="16" y="12" width="12" height="12" rx="3" fill="#06B6D4" />
+    <text x="38" y="26" fill="#F8FAFC" font-size="13" font-weight="700">TRANSIT CORE HUB</text>
+    <text x="295" y="26" text-anchor="end" fill="#38BDF8" font-family="monospace" font-size="10">HUB VNET</text>
+
+    <!-- Hub Component 1: Cloud Router -->
+    <g transform="translate(16, 56)">
+      <rect x="0" y="0" width="288" height="46" rx="8" fill="#111C33" stroke="#334155" stroke-width="1" />
+      <circle cx="18" cy="23" r="5" fill="#38BDF8" />
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">AWS Transit Gateway / Azure vWAN</text>
+      <text x="34" y="35" fill="#64748B" font-family="monospace" font-size="9.5">BGP Dynamic Routing // Route Tables Engine</text>
+    </g>
+
+    <!-- Hub Component 2: Central Security & Firewall -->
+    <g transform="translate(16, 110)">
+      <rect x="0" y="0" width="288" height="46" rx="8" fill="#111C33" stroke="#334155" stroke-width="1" />
+      <circle cx="18" cy="23" r="5" fill="#F43F5E" />
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Edge Security, WAF &amp; NextGen FW</text>
+      <text x="34" y="35" fill="#64748B" font-family="monospace" font-size="9.5">Cloudflare DDoS // Deep Packet Inspection</text>
+    </g>
+
+    <!-- Hub Component 3: Shared Core Services -->
+    <g transform="translate(16, 164)">
+      <rect x="0" y="0" width="288" height="46" rx="8" fill="#111C33" stroke="#334155" stroke-width="1" />
+      <circle cx="18" cy="23" r="5" fill="#A78BFA" />
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Shared Core Vault &amp; DNS</text>
+      <text x="34" y="35" fill="#64748B" font-family="monospace" font-size="9.5">HashiCorp Vault // Private DNS Resolver</text>
+    </g>
+
+    <!-- Hub Component 4: NetBird Zero-Trust Mesh Coordinator -->
+    <g transform="translate(16, 218)">
+      <rect x="0" y="0" width="288" height="46" rx="8" fill="#111C33" stroke="#10B981" stroke-width="1" />
+      <circle cx="18" cy="23" r="5" fill="#10B981" />
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">NetBird Mesh VPN Management</text>
+      <text x="34" y="35" fill="#10B981" font-family="monospace" font-size="9.5">WireGuard Overlays // Zero-Trust Peer ACLs</text>
+    </g>
+  </g>
+
+  <!-- ==================== SPOKE 1: MICROSERVICES & APPS (TOP-LEFT) ==================== -->
+  <g transform="translate(50, 110)">
+    <rect x="0" y="0" width="280" height="200" rx="14" fill="#0D1526" stroke="#06B6D4" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="36" rx="14" fill="#06B6D4" fill-opacity="0.15" />
+    <text x="16" y="23" fill="#38BDF8" font-size="12" font-weight="700">SPOKE A: APPS &amp; K8S</text>
+    <text x="264" y="23" text-anchor="end" fill="#94A3B8" font-family="monospace" font-size="10">SPOKE · PROD</text>
+
+    <g transform="translate(14, 48)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">EKS / AKS Cluster Fleet</text>
+      <text x="12" y="31" fill="#64748B" font-family="monospace" font-size="9">Next.js Frontends // FastAPI Microservices</text>
+    </g>
+    <g transform="translate(14, 94)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">App Gateway &amp; Envoy Ingress</text>
+      <text x="12" y="31" fill="#64748B" font-family="monospace" font-size="9">TLS Termination // mTLS Service Mesh</text>
+    </g>
+    <g transform="translate(14, 140)">
+      <rect x="0" y="0" width="252" height="44" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">Redis Distributed Cache</text>
+      <text x="12" y="32" fill="#06B6D4" font-family="monospace" font-size="9">Sub-millisecond Session State</text>
+    </g>
+  </g>
+
+  <!-- ==================== SPOKE 2: AI & LLM INFERENCE (TOP-RIGHT) ==================== -->
+  <g transform="translate(870, 110)">
+    <rect x="0" y="0" width="280" height="200" rx="14" fill="#0D1526" stroke="#8B5CF6" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="36" rx="14" fill="#8B5CF6" fill-opacity="0.15" />
+    <text x="16" y="23" fill="#C084FC" font-size="12" font-weight="700">SPOKE B: AI &amp; INFERENCE</text>
+    <text x="264" y="23" text-anchor="end" fill="#94A3B8" font-family="monospace" font-size="10">SPOKE · DATA</text>
+
+    <g transform="translate(14, 48)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">LiteLLM Gateway Cluster</text>
+      <text x="12" y="31" fill="#A78BFA" font-family="monospace" font-size="9">Failover // Token Metering // Smart Route</text>
+    </g>
+    <g transform="translate(14, 94)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">Local GPU Worker Nodes</text>
+      <text x="12" y="31" fill="#64748B" font-family="monospace" font-size="9">vLLM // Ollama // Qwen 2.5 // DeepSeek</text>
+    </g>
+    <g transform="translate(14, 140)">
+      <rect x="0" y="0" width="252" height="44" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">Model Context Protocol (MCP)</text>
+      <text x="12" y="32" fill="#8B5CF6" font-family="monospace" font-size="9">Agent Tools // Sandbox Runtime Bus</text>
+    </g>
+  </g>
+
+  <!-- ==================== SPOKE 3: CLICKHOUSE DATA LAKE (BOTTOM-LEFT) ==================== -->
+  <g transform="translate(50, 490)">
+    <rect x="0" y="0" width="280" height="200" rx="14" fill="#0D1526" stroke="#10B981" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="36" rx="14" fill="#10B981" fill-opacity="0.15" />
+    <text x="16" y="23" fill="#34D399" font-size="12" font-weight="700">SPOKE C: REAL-TIME DATA LAKE</text>
+    <text x="264" y="23" text-anchor="end" fill="#94A3B8" font-family="monospace" font-size="10"></text>
+
+    <g transform="translate(14, 48)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">ClickHouse HA Cluster</text>
+      <text x="12" y="31" fill="#10B981" font-family="monospace" font-size="9">ReplacingMergeTree // 100k+ Inserts/sec</text>
+    </g>
+    <g transform="translate(14, 94)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">EMQX Broker &amp; Stream Worker</text>
+      <text x="12" y="31" fill="#64748B" font-family="monospace" font-size="9">MQTT 5.0 // Micro-batch Buffer Engine</text>
+    </g>
+    <g transform="translate(14, 140)">
+      <rect x="0" y="0" width="252" height="44" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">Vector Database (Qdrant)</text>
+      <text x="12" y="32" fill="#34D399" font-family="monospace" font-size="9">Dense Semantic Retrieval &amp; RAG</text>
+    </g>
+  </g>
+
+  <!-- ==================== SPOKE 4: HYBRID ON-PREM & EDGE (BOTTOM-RIGHT) ==================== -->
+  <g transform="translate(870, 490)">
+    <rect x="0" y="0" width="280" height="200" rx="14" fill="#0D1526" stroke="#F59E0B" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="36" rx="14" fill="#F59E0B" fill-opacity="0.15" />
+    <text x="16" y="23" fill="#FBBF24" font-size="12" font-weight="700">SPOKE D: HYBRID ON-PREM EDGE</text>
+    <text x="264" y="23" text-anchor="end" fill="#94A3B8" font-family="monospace" font-size="10"></text>
+
+    <g transform="translate(14, 48)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">Lakehouse primary</text>
+      <text x="12" y="31" fill="#FBBF24" font-family="monospace" font-size="9">Bare-Metal Inference Cluster // Tier-01</text>
+    </g>
+    <g transform="translate(14, 94)">
+      <rect x="0" y="0" width="252" height="38" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">Hypervisor node &amp; HA</text>
+      <text x="12" y="31" fill="#64748B" font-family="monospace" font-size="9">LXC containers // failover target</text>
+    </g>
+    <g transform="translate(14, 140)">
+      <rect x="0" y="0" width="252" height="44" rx="6" fill="#111C33" stroke="#1E293B" stroke-width="1" />
+      <text x="12" y="18" fill="#F1F5F9" font-size="11" font-weight="600">LoRaWAN &amp; Industrial Modbus</text>
+      <text x="12" y="32" fill="#FBBF24" font-family="monospace" font-size="9">Field Energy Meters // RTU Sensors</text>
+    </g>
+  </g>
+
+  <!-- Bottom Annotation Bar -->
+  <g transform="translate(50, 720)">
+    <rect x="0" y="0" width="1100" height="42" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <text x="20" y="25" fill="#64748B" font-family="monospace" font-size="10.5">SECURITY CONTROLS:</text>
+    <text x="160" y="25" fill="#38BDF8" font-family="monospace" font-size="10.5">• Encrypted Peering Only</text>
+    <text x="345" y="25" fill="#34D399" font-family="monospace" font-size="10.5">• Strict Micro-Segmentation</text>
+    <text x="565" y="25" fill="#A78BFA" font-family="monospace" font-size="10.5">• No Transitive Spoke Access</text>
+    <text x="800" y="25" fill="#FBBF24" font-family="monospace" font-size="10.5">• 100% WireGuard Encrypted Mesh</text>
+  </g>
+</svg>

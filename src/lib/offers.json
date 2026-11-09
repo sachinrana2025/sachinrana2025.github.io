@@ -1,0 +1,76 @@
+{
+  "$comment": "Engagement offers shown on /engage and /twins. Prices are USD starting points.",
+  "currency": "USD",
+  "engagements": [
+    {
+      "id": "sprint",
+      "name": "Fixed-scope Delivery Sprint",
+      "from": 25000,
+      "unit": "fixed fee",
+      "duration": "2–6 weeks",
+      "summary": "One outcome, one price: a cloud-cost cut, a platform migration, a ClickHouse or IIoT ingestion path, or a production AI-agent pilot.",
+      "includes": [
+        "Written acceptance criteria per milestone",
+        "Demo at every milestone",
+        "Source, runbooks and handover included",
+        "Milestone billing 30 / 40 / 30"
+      ]
+    },
+    {
+      "id": "twin-pilot",
+      "name": "Digital Twin Pilot",
+      "from": 40000,
+      "unit": "fixed fee",
+      "duration": "4–8 weeks",
+      "summary": "A physics-informed live twin of one plant system, connected to your BMS or gateway data, with fault detection and energy accounting.",
+      "includes": [
+        "Data audit and point mapping (BACnet, Modbus, MQTT)",
+        "Physics model of the asset, calibrated on your data",
+        "Live isometric twin with health and fault views",
+        "Energy-loss report against a healthy baseline"
+      ]
+    },
+    {
+      "id": "advisor",
+      "name": "Technical Advisor",
+      "from": 5000,
+      "unit": "per month",
+      "duration": "about 1 day a week",
+      "summary": "A senior sounding board for founders and engineering leaders: architecture decisions, vendor choices and hiring loops.",
+      "includes": [
+        "Weekly architecture review",
+        "Async access between sessions",
+        "Vendor and build-vs-buy decisions",
+        "Hiring loop and interview design"
+      ]
+    },
+    {
+      "id": "fractional-cto",
+      "name": "Fractional CTO",
+      "from": 10000,
+      "unit": "per month",
+      "duration": "15–20 hours a week",
+      "summary": "Accountable technical leadership without a full-time hire: roadmap, architecture ownership, team and board narrative.",
+      "includes": [
+        "Systems architecture and cloud cost ownership",
+        "Stack, cloud and LLM provider decisions",
+        "Weekly reviews and engineering mentoring",
+        "C-suite and board technical guidance"
+      ]
+    },
+    {
+      "id": "embedded",
+      "name": "Embedded Architecture & Build",
+      "from": 15000,
+      "unit": "per month",
+      "duration": "30–40 hours a week",
+      "summary": "Near full-time senior leadership that also builds: platform shifts, private AI infrastructure and production incidents.",
+      "includes": [
+        "Hands-on engineering in your repositories",
+        "GPU, hypervisor and ClickHouse platforms",
+        "Private LLM gateways and agent pipelines",
+        "SLA-backed incident response"
+      ]
+    }
+  ]
+}
